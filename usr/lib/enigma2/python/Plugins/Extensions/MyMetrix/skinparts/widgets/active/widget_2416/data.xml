@@ -1,0 +1,24 @@
+<skinpartwidget screenname="SecondInfoBar">
+  <!--  /* ECMInfo  -->
+<widget source="session.CurrentService" render="Label" position="732,40" size="202,25" font="Regular; 16" halign="right" valign="center" backgroundColor="metrixBackground2" zPosition="1" transparent="1" noWrap="1">
+<convert type="openplusCamdInfo">Camd</convert>
+</widget>
+<widget source="session.CurrentService" render="Label" position="389,40" size="550,25" font="Regular; 16" halign="center" valign="center" foregroundColor="metrixAccent1" backgroundColor="metrixBackground2" zPosition="1" transparent="1" noWrap="1">
+<convert type="openplusCaidInfo">CryptInfo</convert>
+</widget>
+<widget source="session.CurrentService" position="389,85" size="550,21" render="Label" font="Regular; 14" halign="center" valign="center" backgroundColor="metrixBackground2" transparent="2" noWrap="1" zPosition="1">
+      <convert type="openplusHDChannelCryptoInfo">Default</convert>
+    </widget>
+<eLabel position="389,43" size="550,65" backgroundColor="metrixBackground2" />
+<!-- ECMInfo */ -->
+<!-- /* InfoWidget Provider and CAM(CENTER) -->
+<widget backgroundColor="metrixBackground2" foregroundColor="metrixAccent1" font="Regular; 18" halign="left" position="394,40" render="Label" size="191,25" source="session.CurrentService" transparent="1" valign="center" zPosition="1">
+  <convert type="ServiceName">Provider</convert>
+</widget>
+<widget source="session.CurrentService" render="Label" position="389,60" size="550,23" halign="center" valign="center" font="Regular; 15" zPosition="1" transparent="1" foregroundColor="metrixAccent1" backgroundColor="metrixBackground2">
+  <convert type="openplusHDSmartInfo">ExpertInfo</convert>
+</widget>
+<eLabel backgroundColor="metrixAccent1" position="394,83" size="540,1" />
+<!-- InfoWidget Provider and CAM(CENTER) */ -->
+</skinpartwidget>
+  

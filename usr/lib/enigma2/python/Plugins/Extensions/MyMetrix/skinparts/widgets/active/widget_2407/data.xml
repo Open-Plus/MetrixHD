@@ -1,0 +1,93 @@
+<skinpartwidget screenname="SecondInfoBar">
+<!--  /* Crypt-Info  -->
+<eLabel text="B" font="Regular; 20" position="285,675" size="18,33" halign="center" backgroundColor="metrixBackground" transparent="1" valign="top" zPosition="3" foregroundColor="metrixAccent1" />
+<widget source="session.CurrentService" render="FixedLabel" font="Regular; 20" position="285,675" size="18,33" halign="center" backgroundColor="metrixBackground" zPosition="4" transparent="1" valign="top" text="B">
+<convert type="openplusHDChannelCryptoInfo">BetaCrypt</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<widget source="session.CurrentService" render="FixedLabel" font="Regular; 22" position="285,699" size="18,3" halign="center" backgroundColor="green" foregroundColor="metrixForeground" zPosition="4" transparent="0" valign="center">
+<convert type="openplusHDChannelCryptoInfo">BetaEcm</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<eLabel text="I" font="Regular; 20" position="303,675" size="18,33" halign="center" backgroundColor="metrixBackground" transparent="1" valign="top" zPosition="3" foregroundColor="metrixAccent1" />
+<widget source="session.CurrentService" render="FixedLabel" font="Regular; 20" position="303,675" size="18,33" halign="center" backgroundColor="metrixBackground" zPosition="4" transparent="1" valign="top" text="I">
+<convert type="openplusHDChannelCryptoInfo">IrdCrypt</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<widget source="session.CurrentService" render="FixedLabel" font="SetrixHD; 22" position="303,699" size="18,3" halign="center" backgroundColor="green" foregroundColor="metrixForeground" zPosition="4" transparent="0" valign="center">
+<convert type="openplusHDChannelCryptoInfo">IrdEcm</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<eLabel text="S" font="Regular; 20" position="320,675" size="18,33" halign="center" backgroundColor="metrixBackground" transparent="1" valign="top" zPosition="3" foregroundColor="metrixAccent1" />
+<widget source="session.CurrentService" render="FixedLabel" font="Regular; 20" position="320,675" size="18,33" halign="center" backgroundColor="metrixBackground" zPosition="4" transparent="1" valign="top" text="S">
+<convert type="openplusHDChannelCryptoInfo">SecaCrypt</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<widget source="session.CurrentService" render="FixedLabel" font="SetrixHD; 22" position="319,699" size="18,3" halign="center" backgroundColor="green" foregroundColor="metrixForeground" zPosition="4" transparent="0" valign="center">
+<convert type="openplusHDChannelCryptoInfo">SecaEcm</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<eLabel text="V" font="Regular; 20" position="339,675" size="18,33" halign="center" backgroundColor="metrixBackground" transparent="1" valign="top" zPosition="3" foregroundColor="metrixAccent1" />
+<widget source="session.CurrentService" render="FixedLabel" font="Regular; 20" position="339,675" size="18,33" halign="center" backgroundColor="metrixBackground" zPosition="4" transparent="1" valign="top" text="V">
+<convert type="openplusHDChannelCryptoInfo">ViaCrypt</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<widget source="session.CurrentService" render="FixedLabel" text="V" font="SetrixHD; 22" position="339,699" size="18,3" halign="center" backgroundColor="green" foregroundColor="metrixForeground" zPosition="4" transparent="0" valign="center">
+<convert type="openplusHDChannelCryptoInfo">ViaEcm</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<eLabel text="N" font="Regular; 20" position="357,675" size="18,33" halign="center" backgroundColor="metrixBackground" transparent="1" valign="top" zPosition="3" foregroundColor="metrixAccent1" />
+<widget source="session.CurrentService" render="FixedLabel" font="Regular; 20" position="357,675" size="18,33" halign="center" backgroundColor="metrixBackground" zPosition="4" transparent="1" valign="top" text="N">
+<convert type="openplusHDChannelCryptoInfo">NagraCrypt</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<widget source="session.CurrentService" render="FixedLabel" font="SetrixHD; 22" position="357,699" size="18,3" halign="center" backgroundColor="green" foregroundColor="metrixForeground" zPosition="4" transparent="0" valign="top">
+<convert type="openplusHDChannelCryptoInfo">NagraEcm</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<eLabel text="CW" font="Regular; 20" position="375,675" size="38,33" halign="center" backgroundColor="metrixBackground" transparent="1" valign="top" zPosition="3" foregroundColor="metrixAccent1" />
+<widget source="session.CurrentService" render="FixedLabel" font="Regular; 20" position="375,675" size="38,33" halign="center" backgroundColor="metrixBackground" zPosition="4" transparent="1" valign="top" text="CW">
+<convert type="openplusHDChannelCryptoInfo">CrwCrypt</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<widget source="session.CurrentService" render="FixedLabel" font="SetrixHD; 22" position="375,699" size="38,3" halign="center" backgroundColor="green" foregroundColor="metrixForeground" zPosition="4" transparent="0" valign="top">
+<convert type="openplusHDChannelCryptoInfo">CrwEcm</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<eLabel text="ND" font="Regular; 20" position="413,675" size="38,33" halign="center" backgroundColor="metrixBackground" transparent="1" valign="top" zPosition="3" foregroundColor="metrixAccent1" />
+<widget source="session.CurrentService" render="FixedLabel" font="Regular; 20" position="413,675" size="38,33" halign="center" backgroundColor="metrixBackground" zPosition="4" transparent="1" valign="top" text="ND">
+<convert type="openplusHDChannelCryptoInfo">NdsCrypt</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<widget source="session.CurrentService" render="FixedLabel" font="SetrixHD; 22" position="413,699" size="38,3" halign="center" backgroundColor="green" foregroundColor="metrixForeground" zPosition="4" transparent="0" valign="top">
+<convert type="openplusHDChannelCryptoInfo">NdsEcm</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<eLabel text="CO" font="Regular; 20" position="451,675" size="38,33" halign="center" backgroundColor="metrixBackground" transparent="1" valign="top" zPosition="3" foregroundColor="metrixAccent1" />
+<widget source="session.CurrentService" render="FixedLabel" font="Regular; 20" position="451,675" size="38,33" halign="center" backgroundColor="metrixBackground" zPosition="4" transparent="1" valign="top" text="CO">
+<convert type="openplusHDChannelCryptoInfo">ConaxCrypt</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<widget source="session.CurrentService" render="FixedLabel" font="SetrixHD; 19" position="451,699" size="38,3" halign="center" backgroundColor="green" foregroundColor="metrixForeground" zPosition="4" transparent="0" valign="center">
+<convert type="openplusHDChannelCryptoInfo">ConaxEcm</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<!--  STATUS  -->
+<widget source="session.CurrentService" render="FixedLabel" text="FTA" font="Regular; 20" position="498,675" size="50,33" halign="left" valign="top" backgroundColor="metrixBackground" zPosition="10" transparent="1">
+<convert type="ExtremeInfo">Fta</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<widget source="session.CurrentService" render="FixedLabel" text="EMU" font="Regular; 20" position="498,675" size="50,33" halign="left" valign="top" backgroundColor="metrixBackground" zPosition="11" transparent="1">
+<convert type="ExtremeInfo">Emu</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<widget source="session.CurrentService" render="FixedLabel" text="CRD" font="Regular; 20" position="498,675" size="50,33" halign="left" valign="top" backgroundColor="metrixBackground" zPosition="12" transparent="1">
+<convert type="ExtremeInfo">Crd</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<widget source="session.CurrentService" render="FixedLabel" text="NET" font="Regular; 20" position="498,675" size="50,33" halign="left" valign="top" backgroundColor="metrixBackground" zPosition="13" transparent="1">
+<convert type="ExtremeInfo">Net</convert>
+<convert type="ConditionalShowHide" />
+</widget>
+<!--  Crypt-Info */  -->
+</skinpartwidget>  

@@ -1,0 +1,13 @@
+<skinpartwidget screenname="SecondInfoBar">
+<!--  /* RESOLUTION INFO  -->
+<eLabel backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="600,675" size="15,30" text="x" transparent="1" valign="top" foregroundColor="metrixAccent1" />
+<widget source="session.CurrentService" render="Label" position="536,675" size="64,30" font="Regular; 20" halign="right" valign="top" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1">
+				<convert type="openplusHDVideoInfo">VideoSizeWidth</convert>
+			</widget>
+			
+			<widget source="session.CurrentService" render="Label" position="615,675" size="80,30" font="Regular; 20" halign="left" valign="top" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1">
+				<convert type="openplusHDVideoInfo">VideoSizeHight</convert>
+			</widget>
+<!--  RESOLUTION INFO */  -->
+</skinpartwidget>
+  

@@ -1,0 +1,23 @@
+<skinpartwidget screenname="SecondInfoBar">
+<!-- /* EPGWidget -->
+<widget backgroundColor="metrixBackground" font="Regular; 24" foregroundColor="metrixAccent1" halign="right" noWrap="1" options="movetype=running,direction=left,startpoint=0,startdelay=1000,wrap=1,always=0,repeat=2,oneshot=1" position="85,471" render="RunningText" size="535,35" source="session.Event_Now" transparent="1" valign="top" zPosition="2">
+	<convert type="EventName">Name</convert>
+</widget>
+<widget backgroundColor="metrixBackground2" font="Regular; 22" halign="left" options="movetype=running,direction=left,startpoint=0,startdelay=1000,wrap=1,always=0,repeat=2,oneshot=1" position="640,450" render="RunningText" size="560,35" source="session.Event_Next" transparent="1" valign="top" zPosition="2">
+	<convert type="EventName">Name</convert>
+</widget>
+<widget backgroundColor="metrixBackground" font="Regular; 22" foregroundColor="metrixForeground" options="movetype=running,direction=top,startpoint=0,startdelay=3000,wrap=1,always=0,repeat=2,oneshot=1" position="82,157" render="RunningText" size="535,310" source="session.Event_Now" transparent="1" zPosition="1">
+	<convert type="EventName">ExtendedDescription</convert>
+</widget>
+<widget backgroundColor="metrixBackground2" font="Regular; 22" foregroundColor="metrixAccent1" options="movetype=running,direction=top,startpoint=0,startdelay=3000,wrap=1,always=0,repeat=2,oneshot=1" position="640,177" render="RunningText" size="560,266" source="session.Event_Next" transparent="1" zPosition="1">
+	<convert type="EventName">ExtendedDescription</convert>
+</widget>
+<eLabel backgroundColor="metrixBackground" name="NowBG" position="65,128" size="565,376" zPosition="-1" />
+<eLabel backgroundColor="metrixBackground2" name="NextBG" position="630,154" size="585,329" />
+<!-- EPGWidget */-->
+  <!-- /* CHANNEL NAME  -->
+  <widget backgroundColor="metrixBackground" font="Regular; 25" foregroundColor="metrixAccent1" position="74,125" render="Label" size="557,35" source="session.CurrentService" transparent="1" valign="top" zPosition="1">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+  <!--  CHANNEL NAME */ -->
+</skinpartwidget>  

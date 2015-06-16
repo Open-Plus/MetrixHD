@@ -1,0 +1,37 @@
+<screen backgroundColor="transparent" flags="wfNoBorder" name="EPGSelectionMulti" position="center,center" size="1280,720" title="EPG Selection">
+    <eLabel backgroundColor="metrixBackground" position="48,25" size="746,650" zPosition="-10" />
+    <widget backgroundColor="metrixBackground" font="SetrixHD; 35" halign="left" position="69,47" render="Label" size="140,43" source="global.CurrentTime" transparent="1" foregroundColor="metrixAccent1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+      <widget backgroundColor="metrixBackground2" foregroundColor="metrixForeground" font="SetrixHD; 35" options="movetype=running,direction=left,startpoint=0,steptime=50,repeat=5,startdelay=2000,always=0,oneshot=1" halign="left" position="810,195" render="RunningText" size="397,50" source="Event" transparent="1" valign="bottom">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <eLabel backgroundColor="metrixBackground2" position="794,50" size="430,600" zPosition="-10" />
+    <eLabel backgroundColor="metrixBackground" font="SetrixHD;35" position="284,47" size="502,43" text="EPG Selection" transparent="1" />
+    <ePixmap pixmap="MetrixHD/colors/00ffffff.png" position="70,154" size="700,3" zPosition="1" />
+    <widget name="now_button_sel" pixmap="MetrixHD/colors/00a61d4d.png" position="70,150" size="150,5" zPosition="2" />
+    <widget name="next_button_sel" pixmap="MetrixHD/colors/00a61d4d.png" position="220,150" size="150,5" zPosition="2" />
+    <widget name="more_button_sel" pixmap="MetrixHD/colors/00a61d4d.png" position="370,150" size="150,5" zPosition="2" />
+    <widget backgroundColor="metrixBackground" font="SetrixHD; 25" halign="center" name="now_text" position="70,117" size="150,30" text="NOW" transparent="1" zPosition="3" foregroundColor="metrixAccent1" />
+    <widget backgroundColor="metrixBackground" font="SetrixHD; 25" halign="center" name="next_text" position="220,117" size="150,30" text="NEXT" transparent="1" zPosition="3" foregroundColor="metrixAccent1" />
+    <widget backgroundColor="metrixBackground" font="SetrixHD; 25" halign="center" name="more_text" position="370,117" size="150,30" text="MORE" transparent="1" zPosition="3" foregroundColor="metrixAccent1" />
+    <widget font="SetrixHD;20" halign="right" name="date" position="520,117" size="250,30" transparent="1" valign="center" foregroundColor="metrixAccent1" />
+    <widget backgroundColor="metrixBackground" itemHeight="30" name="list" position="70,166" scrollbarMode="showOnDemand" size="700,450" transparent="1" foregroundColor="metrixAccent1" />
+    <widget backgroundColor="metrixBackground2" foregroundColor="metrixAccent1" font="Regular; 20" options="movetype=running,direction=top,startpoint=0,steptime=50,repeat=5,startdelay=5000,wrap=1,always=0,oneshot=1" position="810,245" render="RunningText" size="407,284" source="Event" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+      <widget alphatest="blend" position="905,64" render="XPicon" size="220,132" source="Service" transparent="1" zPosition="2">
+          <convert type="MetrixRefString">ServicelistRef</convert>
+    </widget>
+      <widget source="Service" render="openplusHDSingleEpgList" backgroundColor="metrixBackground" font="Regular;18" foregroundColor="metrixForeground" position="810,532" size="407,110" transparent="1" noWrap="1">
+    </widget>
+    <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_red.png" position="35,635" size="30,40" />
+    <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_green.png" position="202,635" size="30,40" />
+    <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_yellow.png" position="410,635" size="29,40" />
+    <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_blue.png" position="590,635" size="30,40" />
+    <widget backgroundColor="metrixBackground" font="SetrixHD; 20" halign="left" name="key_red" position="73,637" size="142,32" transparent="1" zPosition="1" valign="top" />
+    <widget backgroundColor="metrixBackground" font="SetrixHD; 20" halign="left" name="key_green" position="240,637" size="188,32" transparent="1" zPosition="1" valign="top" />
+    <widget backgroundColor="metrixBackground" font="SetrixHD; 20" halign="left" name="key_yellow" position="447,637" size="160,32" transparent="1" zPosition="1" valign="top" />
+    <widget backgroundColor="metrixBackground" font="SetrixHD; 20" halign="left" name="key_blue" position="627,637" size="189,32" transparent="1" zPosition="1" valign="top" text="Autotemporizador" />
+    <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_menu.png" position="689,47" size="81,40" transparent="1" zPosition="10" />
+  </screen>  

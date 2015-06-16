@@ -1,0 +1,1251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MyMetrix 2.0\n"
+"POT-Creation-Date: 2013-08-12 01:48+0100\n"
+"PO-Revision-Date: 2013-11-25 06:26+0100\n"
+"Last-Translator: iMaxxx <none@ima.xxx>\n"
+"Language-Team: iMaxxx <support@mymetrix.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: /Users/sinthernn/Dropbox/Projekte/Vu+ MetroTheme/Package/"
+"test/MyMetrix Plugin\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /Users/sinthernn/Dropbox/Projekte/Vu+ MetroTheme/"
+"Package/2.0.14/source\n"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_GenerateSkin.py:249
+#: Plugin/metrix_Store_Menu.py:331
+msgid ""
+"GUI needs a restart to apply a new skin.\n"
+"Do you want to Restart the GUI now?"
+msgstr ""
+"GUI necesita Reiniciar para aplicar la nueva Piel.\n"
+"Quiere reiniciar GUI ahora?"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_GenerateSkin.py:250
+#: Plugin/metrix_MainMenu.py:184 Plugin/metrix_Store_Menu.py:332
+#: Plugin/metrixColors.py:187 Plugin/metrixInfobar.py:178
+#: Plugin/metrixSecondInfobar.py:184 Plugin/metrixWeather.py:181
+msgid "Restart GUI"
+msgstr "Reiniciar GUI"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Intro.py:116
+msgid "Welcome to MyMetrix and OpenStore!"
+msgstr "Bienvenido a MyMetrix y OpenStore!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Intro.py:117
+msgid ""
+"MyMetrix brings your set-top box experience onto a whole new level!\n"
+"Press left button to start the easy setup which generates the default "
+"MetrixHD feeling. Alternatively press right button to explore great "
+"SkinParts in OpenStore and customize your user interface how ever you want!"
+msgstr ""
+"MyMetrix le lleva su experiencia con su box a un nivel completamente nuevo!\n"
+"Pulse el botón de la izquierda para iniciar la instalación fácil, que "
+"generará su piel MetrixHD por defecto. Alternativamente, pulse el botón "
+"derecho para explorar SkinParts en OpenStore y personalizar su interfaz de "
+"usuario de la forma que quiera!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Intro.py:121
+msgid "Customize"
+msgstr "Personalizar"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Intro.py:122
+msgid "Easy setup"
+msgstr "Configuración fácil"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_MainMenu.py:140
+#: Plugin/metrix_Store_Menu.py:115
+msgid "OpenStore"
+msgstr "OpenStore"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_MainMenu.py:141
+msgid "SkinPart Settings"
+msgstr "Ajustes SkinParts"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_MainMenu.py:142
+msgid "MetrixColors Settings"
+msgstr "Ajustes MetrixColores"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_MainMenu.py:143
+msgid "General Settings"
+msgstr "Ajustes Generales"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_MainMenu.py:145
+msgid "Save My Skin"
+msgstr "Guardar mi Piel"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_MainMenu.py:183
+#: Plugin/metrixColors.py:186 Plugin/metrixInfobar.py:177
+#: Plugin/metrixSecondInfobar.py:183 Plugin/metrixWeather.py:180
+msgid "Do you really want to reboot now?"
+msgstr "¿De verdad quieres reiniciar ahora?"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_MainMenu.py:187
+#: Plugin/metrix_Settings_SkinParts.py:299
+#: Plugin/metrix_Store_ConnectDevice.py:161 Plugin/metrixColors.py:190
+#: Plugin/metrixGeneral.py:207 Plugin/metrixInfobar.py:181
+#: Plugin/metrixSecondInfobar.py:187 Plugin/metrixWeather.py:184
+msgid "Information"
+msgstr "Información"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Settings_SkinParts.py:110
+msgid "Disable"
+msgstr "Inhabilitar"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Settings_SkinParts.py:110
+msgid "Enable"
+msgstr "Habilitar"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Settings_SkinParts.py:110
+msgid "Delete"
+msgstr "Borrar"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Settings_SkinParts.py:113
+msgid "MyMetrix // My SkinParts"
+msgstr "MyMetrix / / Mis SkinParts"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Settings_SkinParts.py:211 Plugin/metrix_Store_Menu.py:287
+#: Plugin/metrix_Store_MetrixColors.py:214 Plugin/metrix_Store_Packages.py:356
+#: Plugin/metrix_Store_SkinParts.py:327 Plugin/metrixStore.py:176
+msgid "by "
+msgstr "por"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_SkinPartTools.py:226
+msgid " successfully updated!"
+msgstr "actualizado correctamente!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_ConnectDevice.py:109
+msgid "Sign in to open-store.net open Device Portal and choose Add Device!"
+msgstr ""
+"Inicia sesión en open-store.net, abre portal de dispositivos y seleccione "
+"Agregar dispositivo!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_ConnectDevice.py:112
+msgid "Enter PIN"
+msgstr "Introducir PIN"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_ConnectDevice.py:128
+msgid "Please wait..."
+msgstr "Por favor, espere ..."
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_ConnectDevice.py:143
+msgid "Accept device and press connect."
+msgstr "Acepta el dispositivo y pulse Conectar."
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_ConnectDevice.py:153
+msgid "Error. Verify your PIN!"
+msgstr "Error. Verifique su PIN!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_ConnectDevice.py:158
+msgid "Error connecting to OpenStore!"
+msgstr "Error al conectar con OpenStore!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:116
+msgid "OpenStore // SkinParts"
+msgstr "OpenStore // SkinParts"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:121
+#: Plugin/metrix_Store_Menu.py:190
+msgid "Suites"
+msgstr "Suites"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:122
+msgid "MyMetrix // OpenStore"
+msgstr "MyMetrix // OpenStore"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:125
+msgid "OpenStore // Plugins & More"
+msgstr "OpenStore // Plugins & Más"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:126
+#: Plugin/metrixGeneral.py:121 Plugin/metrixGeneral.py:124
+#: Plugin/metrixGeneral.py:129 Plugin/metrixGeneral.py:135
+msgid " "
+msgstr ""
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:153
+#: Plugin/metrix_Store_Menu.py:154
+msgid "Loading..."
+msgstr "Cargando…"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:186
+#: Plugin/metrix_Store_Menu.py:388
+msgid "Skin Extensions"
+msgstr "Extensiones de la piel"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:187
+msgid "All SkinParts"
+msgstr "Todas las SkinParts"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:193
+msgid "Screens"
+msgstr "Pantallas"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:195
+msgid "Package Updates"
+msgstr "Actualizaciones de paquetes"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:196
+msgid "New "
+msgstr "Nuevo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:370
+msgid "Education"
+msgstr "Educación"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:371
+msgid "Movie & Media"
+msgstr "Películas & Media"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:372
+msgid "Network & Streaming"
+msgstr "Red & Streaming"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:373
+msgid "News"
+msgstr "Noticias"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:374
+msgid "Program Guide"
+msgstr "Guía de programa"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:375
+msgid "Social"
+msgstr "Social"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:376
+msgid "Spinners"
+msgstr "Spinners"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:377
+msgid "Sports"
+msgstr "Deportes"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:379
+msgid "Radio"
+msgstr "Radio"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:380
+msgid "Tweaks"
+msgstr "Retoques"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:381
+msgid "Recordings"
+msgstr "Grabaciones"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:382
+msgid "Communication"
+msgstr "Comunicación"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:383
+msgid "System Extensions"
+msgstr "Extensiones del sistema"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:384
+msgid "Utilities"
+msgstr "Utilidades"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:385
+msgid "Development"
+msgstr "Desarrollo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:386
+msgid "Picons"
+msgstr "Picons"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:389
+msgid "SkinParts Collections"
+msgstr "SkinParts Colecciones"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:390
+msgid "Drivers"
+msgstr "Drivers"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:391
+msgid "Channellists"
+msgstr "Listas de Canales"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:392
+msgid "Kernel Modules"
+msgstr "Kernel-Modulos"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:393
+msgid "Language Packs"
+msgstr "Packs de lenguage"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:394
+msgid "Weather"
+msgstr "Tiempo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:396
+msgid "Various"
+msgstr "Varios"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:397
+msgid "My SkinParts"
+msgstr "Mis SkinParts"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:398
+msgid "Default Bugfixes"
+msgstr "Defecto-Corrección de errores"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:399
+msgid "VTI Specific"
+msgstr "VTI-Especifico"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:400
+msgid "OpenPLi Specific"
+msgstr "OpenPLi-Especifico"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:401
+msgid "MetrixHD Default"
+msgstr "MetrixHD por defecto"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_MetrixColors.py:110 Plugin/metrix_Store_Packages.py:113
+#: Plugin/metrix_Store_SkinParts.py:121
+msgid "Install "
+msgstr "Instalar"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_MetrixColors.py:110 Plugin/metrix_Store_Packages.py:113
+#: Plugin/metrix_Store_SkinParts.py:121
+msgid "Vote"
+msgstr "Votar"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_MetrixColors.py:113
+msgid "OpenStore // MetrixColors"
+msgstr "OpenStore // MetrixColores"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_MetrixColors.py:135 Plugin/metrix_Store_Packages.py:157
+#: Plugin/metrix_Store_SkinParts.py:164
+msgid "loading, please wait..."
+msgstr "Cargando, por favor espere..."
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_Packages.py:118 Plugin/metrix_Store_SkinParts.py:124
+#: Plugin/metrix_Store_SkinParts.py:126
+msgid "OpenStore // "
+msgstr "OpenStore //"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_Packages.py:133 Plugin/metrix_Store_SkinParts.py:141
+msgid "New"
+msgstr "Nuevo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_Packages.py:300
+msgid "Installation complete!"
+msgstr "Instalación Completada!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_Packages.py:307
+msgid "Installation error!"
+msgstr "Error de Instalación!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix
+#: Plugin/metrix_Store_Packages.py:330 Plugin/metrix_Store_SkinParts.py:301
+msgid "loading..."
+msgstr "Cargando..."
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:104
+#: Plugin/metrixGeneral.py:107
+msgid "Discard"
+msgstr "Descartar"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:104
+msgid "Preview SecondInfoBar"
+msgstr "Vista previa SecondInfoBar"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:104
+msgid "Preview InfoBar"
+msgstr "Vista previa InfoBar"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:112
+msgid "Publish to OpenStore"
+msgstr "Publicar en OpenStore"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:115
+msgid "Background transparency"
+msgstr "Transparencia del fondo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:116
+msgid "Selection transparency"
+msgstr "Seleción de transparencia"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:117
+msgid "Background text transparency"
+msgstr "Transparencia texto de fondo "
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:119
+msgid "Selection"
+msgstr "Selección"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:120
+msgid "Progress bars"
+msgstr "Barra de progreso"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:121
+msgid "Background"
+msgstr "Fondo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:122
+msgid "Background 2"
+msgstr "Fondo 2"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:123
+#: Plugin/metrixPreview.py:166 Plugin/metrixPreview.py:169
+#: Plugin/metrixPreview2.py:169 Plugin/metrixPreview2.py:172
+#: Plugin/metrixPreviewSIB.py:172 Plugin/metrixPreviewSIB.py:175
+msgid "Foreground"
+msgstr "Primer Plano"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:124
+#: Plugin/metrixPreview.py:200 Plugin/metrixPreview2.py:203
+#: Plugin/metrixPreviewSIB.py:206
+msgid "Background text"
+msgstr "Texto de fondo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:125
+#: Plugin/metrixPreview.py:167 Plugin/metrixPreview2.py:170
+#: Plugin/metrixPreviewSIB.py:173
+msgid "Accent 1"
+msgstr "Accent 1"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:126
+msgid "Accent 2"
+msgstr "Accent 2"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:128
+msgid "Custom colors (r,g,b):"
+msgstr "Colores personalizados (r,g,b):"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:129
+msgid "    Selection"
+msgstr "Selección"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:130
+msgid "    Background"
+msgstr "Fondo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:131
+msgid "    Background 2"
+msgstr "Fondo 2"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:132
+msgid "    Foreground"
+msgstr "Primer plano"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:133
+msgid "    Background text"
+msgstr "Texto de Fondo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:134
+msgid "    Accent 1"
+msgstr "Accent 1"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:135
+msgid "    Accent 2"
+msgstr "Accent 2"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixConnector.py:181
+msgid "Screen successfully disabled!"
+msgstr "Pantalla desactivada con éxito!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixConnector.py:187
+msgid "Widget successfully disabled!"
+msgstr "Widget desactivado con éxito!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixConnector.py:195
+msgid "Screen successfully enabled!"
+msgstr "Pantalla activada con éxito!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixConnector.py:201
+msgid "Widget successfully enabled!"
+msgstr "Widget activado con éxito!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixConnector.py:432
+#: Plugin/metrixConnector.py:473
+msgid " successfully installed!"
+msgstr " Instalado con éxito!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixConnector.py:564
+msgid "Package successfully installed!"
+msgstr "Paquete instalado con éxito!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixConnector.py:590
+msgid "Generating skin!"
+msgstr "Generando Piel!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixConnector.py:665
+msgid "Skin successfully generated!"
+msgstr "Piel generada con éxito!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixConnector.py:745
+msgid "Restarting GUI!"
+msgstr "Reiniciando GUI!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixConnector.py:751
+msgid "Executing action!"
+msgstr "Ejecutando acción!"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:55
+#: Plugin/metrixDefaults.py:98
+msgid "Amber"
+msgstr "Ambar"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:56
+#: Plugin/metrixDefaults.py:84
+msgid "White"
+msgstr "Blanco"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:57
+#: Plugin/metrixDefaults.py:99
+msgid "Brown"
+msgstr "Marrón"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:58
+#: Plugin/metrixDefaults.py:100
+msgid "Cobalt"
+msgstr "Cobalto"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:59
+#: Plugin/metrixDefaults.py:101
+msgid "Crimson"
+msgstr "Carmesí"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:60
+#: Plugin/metrixDefaults.py:102
+msgid "Cyan"
+msgstr "Turquesa"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:61
+#: Plugin/metrixDefaults.py:103
+msgid "Magenta"
+msgstr "Magenta"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:62
+#: Plugin/metrixDefaults.py:104
+msgid "Lime"
+msgstr "Lima"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:63
+#: Plugin/metrixDefaults.py:105
+msgid "Indigo"
+msgstr "Añil"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:64
+#: Plugin/metrixDefaults.py:106
+msgid "Green"
+msgstr "Verde"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:65
+#: Plugin/metrixDefaults.py:107
+msgid "Emerald"
+msgstr "Esmeralda"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:66
+#: Plugin/metrixDefaults.py:108
+msgid "Mauve"
+msgstr "Malva"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:67
+#: Plugin/metrixDefaults.py:109
+msgid "Olive"
+msgstr "Oliva"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:68
+#: Plugin/metrixDefaults.py:110
+msgid "Orange"
+msgstr "Naranja"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:69
+#: Plugin/metrixDefaults.py:111
+msgid "Pink"
+msgstr "Rosa"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:70
+#: Plugin/metrixDefaults.py:112
+msgid "Red"
+msgstr "Rojo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:71
+#: Plugin/metrixDefaults.py:113
+msgid "Sienna"
+msgstr "Siena"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:72
+#: Plugin/metrixDefaults.py:114
+msgid "Steel"
+msgstr "Acero"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:73
+#: Plugin/metrixDefaults.py:115
+msgid "Teal"
+msgstr "Verde azulado"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:74
+#: Plugin/metrixDefaults.py:116
+msgid "Violet"
+msgstr "Violeta"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:75
+#: Plugin/metrixDefaults.py:117
+msgid "Yellow"
+msgstr "Amarillo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:81
+msgid "CUSTOM"
+msgstr "PERSONAL"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:82
+msgid "Black"
+msgstr "Negro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:83
+msgid "PreBlack"
+msgstr "PreNegro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:85
+msgid "Darkgrey"
+msgstr "Gris oscuro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:86
+msgid "Lightgrey"
+msgstr "Gris claro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:87
+msgid "Grey"
+msgstr "Gris"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:88
+msgid "Darkred"
+msgstr "Rojo oscuro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:89
+msgid "Darkgreen"
+msgstr "Verde oscuro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:90
+msgid "Darkbrown"
+msgstr "Marrón oscuro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:91
+msgid "Darklime"
+msgstr "lima oscuro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:92
+msgid "Darkteal"
+msgstr "Verde-azulado oscuro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:93
+msgid "Darkcyan"
+msgstr "Turquesa oscuro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:94
+msgid "Darkcobalt"
+msgstr "Cobalto oscuro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:95
+msgid "Darkpurple"
+msgstr "Púrpura oscuro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:96
+msgid "Darkmagenta"
+msgstr "Magenta oscuro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:97
+msgid "Darkpink"
+msgstr "Rosa oscuro"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:138
+msgid "Yes"
+msgstr "Si"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:139
+msgid "No"
+msgstr "No"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:146
+msgid "Not connected"
+msgstr "No conectado"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:183
+#: Plugin/metrixDefaults.py:199
+msgid "Celsius"
+msgstr "Celsius"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:184
+#: Plugin/metrixDefaults.py:200
+msgid "Fahrenheit"
+msgstr "Fahrenheit"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:187
+#: Plugin/metrixDefaults.py:191
+msgid "On"
+msgstr "On"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixDefaults.py:188
+#: Plugin/metrixDefaults.py:192
+msgid "Off"
+msgstr "Off"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:120
+msgid " - open-store.net"
+msgstr " - open-store.net"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:123
+msgid " - live.mymetrix.de (Reboot required)"
+msgstr " - open-store.net (Reinicio requerido)"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:126
+msgid ""
+"Automatic Updates "
+"----------------------------------------------------------------------"
+msgstr ""
+"Actualizaciones automáticas "
+"-------------------------------------------------------------"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:127
+msgid "MyMetrix, OpenStore and plugins"
+msgstr "MyMetrix, OpenStore y Plugins"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:128
+msgid "SkinParts"
+msgstr "SkinParts"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:130
+msgid ""
+"Skin "
+"-----------------------------------------------------------------------------------"
+msgstr ""
+"Piel "
+"------------------------------------------------------------------------------------"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:131
+msgid "Show intro page"
+msgstr "Mostrar página de introducción"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:132
+msgid "Skin template"
+msgstr "Plantilla de la piel"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:136
+msgid ""
+"Weather "
+"--------------------------------------------------------------------------------"
+msgstr ""
+"Tiempo "
+"---------------------------------------------------------------------------------"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:138
+#: Plugin/metrixWeather.py:106
+msgid "MetrixWeather ID"
+msgstr "MetrixTiempo ID"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:139
+#: Plugin/metrixWeather.py:107
+msgid "Unit"
+msgstr "Unidad"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:162
+#: Plugin/metrixGeneral.py:164
+msgid "Connect to OpenStore"
+msgstr "Conectar con OpenStore"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:166
+msgid "Disconnect"
+msgstr "Desconectar"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixInfobar.py:77
+#: Plugin/metrixWeather.py:77
+msgid "Configuration tool for MetrixHD"
+msgstr "Herramienta de configuración para MetrixHD"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixInfobar.py:107
+#: Plugin/metrixSecondInfobar.py:102
+msgid "Clock Widget"
+msgstr "Widget Reloj"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixInfobar.py:108
+#: Plugin/metrixSecondInfobar.py:103
+msgid "Info Widget"
+msgstr "Info Widget"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixInfobar.py:109
+#: Plugin/metrixSecondInfobar.py:105
+msgid "Weather Widget"
+msgstr "Widget del Tiempo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixInfobar.py:110
+#: Plugin/metrixSecondInfobar.py:104
+msgid "Health Widget"
+msgstr "Widget de Señal"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixInfobar.py:111
+#: Plugin/metrixSecondInfobar.py:107
+msgid "Style"
+msgstr "Estilo"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixInfobar.py:112
+#: Plugin/metrixSecondInfobar.py:108
+msgid "Channel name"
+msgstr "Nombre del canal"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixInfobar.py:113
+#: Plugin/metrixSecondInfobar.py:109
+msgid "Show tuner info"
+msgstr "Mostar información del sintonizador"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixInfobar.py:114
+#: Plugin/metrixSecondInfobar.py:110
+msgid "Show resolution info"
+msgstr "Mostar información de resolución"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixInfobar.py:115
+#: Plugin/metrixSecondInfobar.py:111
+msgid "Show crypt info"
+msgstr "Mostar información de encriptación"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:170
+#: Plugin/metrixPreview2.py:173 Plugin/metrixPreviewSIB.py:176
+msgid "21:15 - 22:10 Accent 1"
+msgstr "21:15 - 22:10 Akzent 1"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:172
+#: Plugin/metrixPreview2.py:175 Plugin/metrixPreviewSIB.py:178
+msgid "20:15 - 21:10"
+msgstr "20:15 - 22:10"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:173
+#: Plugin/metrixPreview2.py:176 Plugin/metrixPreviewSIB.py:179
+msgid "+10 min"
+msgstr ""
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:174
+#: Plugin/metrixPreview2.py:177 Plugin/metrixPreviewSIB.py:180
+msgid "50 min"
+msgstr ""
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:179
+#: Plugin/metrixPreview2.py:182 Plugin/metrixPreviewSIB.py:185
+msgid "18"
+msgstr ""
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:180
+#: Plugin/metrixPreview2.py:183 Plugin/metrixPreviewSIB.py:186
+msgid "Â°C"
+msgstr ""
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:181
+#: Plugin/metrixPreview2.py:184 Plugin/metrixPreviewSIB.py:187
+msgid "23Â°C"
+msgstr ""
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:182
+#: Plugin/metrixPreview2.py:185 Plugin/metrixPreviewSIB.py:188
+msgid "16Â°C"
+msgstr ""
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:183
+#: Plugin/metrixPreview2.py:186 Plugin/metrixPreviewSIB.py:189
+msgid "H"
+msgstr ""
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:185
+#: Plugin/metrixPreview2.py:188 Plugin/metrixPreviewSIB.py:191
+msgid "18Â°C"
+msgstr ""
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:186
+#: Plugin/metrixPreview2.py:189 Plugin/metrixPreviewSIB.py:192
+msgid "12Â°C"
+msgstr ""
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:187
+#: Plugin/metrixPreview2.py:190 Plugin/metrixPreviewSIB.py:193
+msgid "R"
+msgstr "R"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:191
+#: Plugin/metrixPreview2.py:194 Plugin/metrixPreviewSIB.py:197
+msgid "B"
+msgstr "B"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:192
+#: Plugin/metrixPreview2.py:195 Plugin/metrixPreviewSIB.py:198
+msgid "I"
+msgstr "I"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:193
+#: Plugin/metrixPreview2.py:196 Plugin/metrixPreviewSIB.py:199
+msgid "S"
+msgstr "S"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:194
+#: Plugin/metrixPreview2.py:197 Plugin/metrixPreviewSIB.py:200
+msgid "V"
+msgstr "V"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:195
+#: Plugin/metrixPreview2.py:198 Plugin/metrixPreviewSIB.py:201
+msgid "N"
+msgstr "N"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:196
+#: Plugin/metrixPreview2.py:199 Plugin/metrixPreviewSIB.py:202
+msgid "CW"
+msgstr "CW"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:197
+#: Plugin/metrixPreview2.py:200 Plugin/metrixPreviewSIB.py:203
+msgid "ND"
+msgstr "ND"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:198
+#: Plugin/metrixPreview2.py:201 Plugin/metrixPreviewSIB.py:204
+msgid "CO"
+msgstr "CO"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixSecondInfobar.py:106
+msgid "EPG Widget"
+msgstr "Widget EPG "
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixSubmitDesign.py:107
+msgid "Add screenshot"
+msgstr "Añade captura"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixSubmitDesign.py:120
+msgid "Design name"
+msgstr "Nombre de diseño"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixSubmitDesign.py:121
+msgid "Author: "
+msgstr "Autor:"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixWeather.py:108
+msgid "Refresh Interval (min)"
+msgstr "Intervalo de Refresco  (min)"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/plugin.py:127
+msgid "Metrify Your Vu+"
+msgstr "Metrify Tu Vu+"
+
+#: /Users/sinthernn/Dropbox/Projekte/Vu+
+#: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/plugin.py:128
+msgid "Explore The Variety Of Your Vu+"
+msgstr "Explorar la variedad de Tu Vu+"
+
+#~ msgid "AutoUpdate"
+#~ msgstr "Automatisch Aktualisieren"
+
+#~ msgid "Save my MetrixHD"
+#~ msgstr "Mein MetrixHD speichern"
+
+#~ msgid " - live.mymetrix.de"
+#~ msgstr "- MyMetrix.de [DE]"
+
+#~ msgid "You need to connect!"
+#~ msgstr "Verbinden erforderlich"
+
+#~ msgid "Setting colors"
+#~ msgstr "Farben werden eingelesen"
+
+#~ msgid "Checking screen "
+#~ msgstr "Scherens werden überprüft"
+
+#~ msgid "Removing default screen "
+#~ msgstr "Screens werden entfernt"
+
+#~ msgid "Parsing SkinPart Screens"
+#~ msgstr "Verarbeite SkinPart Scherens"
+
+#~ msgid "Parsing SkinPart Widget for "
+#~ msgstr "SkinPart-Widgets werden gelesen für "
+
+#~ msgid "Setting ProgressBars for "
+#~ msgstr "Fortschrittsbalken werden aktualisiert für "
+
+#~ msgid "Writing skin file, please wait..."
+#~ msgstr "Skin wird geschrieben, bitte warten…"
+
+#~ msgid "Activating MetrixHD"
+#~ msgstr "MetrixHD wird aktiviert"
+
+#~ msgid "Setting color: "
+#~ msgstr "Farben übernehmen: "
+
+#~ msgid "Error setting colors!"
+#~ msgstr "Fehler beim übernehmen der Farben!"
+
+#~ msgid "Installing, please wait..."
+#~ msgstr "Installiert, bitte warten…"
+
+#~ msgid "Installing..."
+#~ msgstr "Installation läuft..."
+
+#~ msgid "Error during installation!"
+#~ msgstr "Fehler während der Installation"
+
+#~ msgid "Charts"
+#~ msgstr "Charts"
+
+#~ msgid "Popular"
+#~ msgstr "Beliebt"
+
+#~ msgid "Installation successful!"
+#~ msgstr "Installation erfolgreich"
+
+#~ msgid "Submit"
+#~ msgstr "Veröffentlichen"
+
+#~ msgid "Update available, save to apply!"
+#~ msgstr "Update verfügbar, speichern zum Übernehmen!"
+
+#~ msgid "Update available, please reboot first to apply the update!"
+#~ msgstr "Update verfügbar. Bitte zuerst Neustarten!"
+
+#~ msgid " (Rev."
+#~ msgstr "(Rev."
+
+#~ msgid "Publish Design"
+#~ msgstr "Veröffentlichen"
+
+#~ msgid "On with symbol"
+#~ msgstr "An mit Symbol"
+
+#~ msgid "Classic"
+#~ msgstr "Classic"
+
+#~ msgid "Colored"
+#~ msgstr "Farbig"
+
+#~ msgid "Show Provider"
+#~ msgstr "Anbieter anzeigen"
+
+#~ msgid "Show Provider and CAM/ECM"
+#~ msgstr "Anbieter und CAM/ECM anzeigen"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Name and number"
+#~ msgstr "Name und Nummer"
