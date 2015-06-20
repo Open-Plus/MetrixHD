@@ -1,0 +1,19 @@
+<skinpartwidget screenname="SecondInfoBar">
+
+<!-- /* EPGWidget -->
+<widget backgroundColor="metrixBackground" font="Regular; 24" foregroundColor="metrixAccent1" halign="right" noWrap="1" position="85,471" render="Label" size="535,35" source="session.Event_Now" transparent="1" valign="top" zPosition="2">
+	<convert type="EventName">Name</convert>
+</widget>
+<widget backgroundColor="metrixBackground2" font="Regular; 22" halign="left" position="641,450" render="Label" size="560,35" source="session.Event_Next" transparent="1" valign="top" zPosition="2">
+	<convert type="EventName">Name</convert>
+</widget>
+<widget backgroundColor="metrixBackground" font="Regular; 22" foregroundColor="metrixForeground" position="82,140" render="Label" size="535,327" source="session.Event_Now" transparent="1" zPosition="1">
+	<convert type="EventName">ExtendedDescription</convert>
+</widget>
+<widget backgroundColor="metrixBackground2" font="Regular; 22" foregroundColor="metrixAccent1" position="640,169" render="Label" size="560,274" source="session.Event_Next" transparent="1" zPosition="1">
+	<convert type="EventName">ExtendedDescription</convert>
+</widget>
+<eLabel backgroundColor="metrixBackground" name="NowBG" position="65,128" size="565,376" zPosition="-1" />
+<eLabel backgroundColor="metrixBackground2" name="NextBG" position="630,154" size="585,329" />
+<!-- EPGWidget */-->
+</skinpartwidget>  
