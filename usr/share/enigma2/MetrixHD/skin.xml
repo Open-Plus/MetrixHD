@@ -2567,7 +2567,7 @@
       <convert type="openplusHDServiceTime">EndTime</convert>
     </widget>
     <!-- next_line_is_picon -->
-    <widget alphatest="blend" position="907,80" render="MetrixHDXPicon" size="220,132" source="Service" transparent="1" zPosition="5">
+    <widget alphatest="blend" position="907,80" render="XPicon" size="220,132" source="Service" transparent="1" zPosition="5">
       <convert type="MovieInfo">RecordServiceRef</convert>
     </widget>
     <eLabel backgroundColor="metrixAccent1" position="859,330" size="315,1"/>
