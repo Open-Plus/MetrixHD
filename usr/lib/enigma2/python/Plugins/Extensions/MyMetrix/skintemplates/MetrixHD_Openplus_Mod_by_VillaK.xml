@@ -588,12 +588,12 @@
     <widget font="SetrixHD;16" foregroundColor="metrixForeground" halign="center" name="nds" position="403,14" size="45, 25" text="NDS" transparent="1" valign="center" zPosition="3" />
     <widget font="SetrixHD;16" foregroundColor="metrixForeground" halign="center" name="ecmInfo" noWrap="1" position="18,44" size="560,25" transparent="1" valign="center" zPosition="3" />
   </screen>
-  <screen backgroundColor="transparent" flags="wfNoBorder" name="Volume" position="49,40" size="320,70" title="Volume">
-    <widget name="Volume" pixmap="MetrixHD/colors/00ffffff.png" position="70,32" size="170,5" transparent="1" zPosition="3" />
-    <ePixmap alphatest="blend" pixmap="MetrixHD/icons/volume.png" position="3,3" size="64,64" transparent="0" zPosition="1" />
-    <widget backgroundColor="metrixBackground" font="SetrixHD;40" foregroundColor="metrixForeground" halign="left" position="247,6" render="VVolumeText" size="85,70" source="global.CurrentTime" transparent="1" valign="top" zPosition="20" />
-    <eLabel backgroundColor="metrixAccent1" foregroundColor="metrixAccent1" position="70,34" size="170,1" />
-    <eLabel backgroundColor="metrixBackground" name="volumeBG" position="0,0" size="320, 70" transparent="0" zPosition="-1" />
+   <screen backgroundColor="transparent" flags="wfNoBorder" name="Volume" position="49,40" size="320,70" title="Volume">
+    <widget name="Volume" pixmap="MetrixHD/colors/00a61d4d.png" position="70,32" size="170,5" transparent="1" zPosition="3"/>
+    <ePixmap alphatest="blend" pixmap="MetrixHD/icons/volume.png" position="3,3" size="64,64" transparent="0" zPosition="1"/>
+    <widget backgroundColor="metrixBackground" font="SetrixHD;40" foregroundColor="metrixForeground" halign="left" position="247,6" render="LVolumeText" size="85,70" source="global.CurrentTime" transparent="1" valign="top" zPosition="20"/>
+    <eLabel backgroundColor="metrixAccent1" foregroundColor="metrixAccent1" position="70,34" size="170,1"/>
+    <eLabel backgroundColor="metrixBackground" name="volumeBG" position="0,0" size="320, 70" transparent="0" zPosition="-1"/>
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="UnhandledKey" position="49,40" size="70,70" title="UnhandledKey" zPosition="100">
     <widget alphatest="blend" name="UnhandledKeyPixmap" pixmap="MetrixHD/icons/error.png" position="3,3" size="64,64" zPosition="2" />
