@@ -577,9 +577,6 @@
     <widget backgroundColor="metrixBackground" font="Meteo; 45" halign="left" noWrap="1" position="156,50" render="Label" size="50,50" source="session.CurrentService" transparent="1" valign="center" zPosition="10">
       <convert type="MetrixWeather">forecastTodayCode</convert>
     </widget>
-    <widget alphatest="blend" pixmap="MetrixHD/icons/ico_rec_on.png" position="65,127" render="Pixmap" size="74,23" source="session.RecordState" zPosition="2">
-      <convert type="ConditionalShowHide">Blink</convert>
-    </widget>
     <widget backgroundColor="metrixBackground" foregroundColor="metrixForeground" halign="right" noWrap="1" position="20,52" render="Label" size="230,100" source="session.CurrentService" transparent="1" valign="center" zPosition="10">
       <convert type="MetrixWeather">currentLocation</convert>
     </widget>
