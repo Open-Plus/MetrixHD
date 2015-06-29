@@ -1588,6 +1588,10 @@
       <convert type="MenuEntryCompare">default_wizard</convert>
       <convert type="ConditionalShowHide"/>
     </widget>
+	  <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_display_lcd_skin_setup.png" position="305,80" size="256,256" alphatest="blend" zPosition="1">
+			<convert type="MenuEntryCompare">lcd4linux</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
     <eLabel backgroundColor="metrixBackground" foregroundColor="metrixBackground" name="" position="645,51" size="412,565" zPosition="-11"/>
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="menu_information" position="0,0" size="1280,720" title="Main menu">
