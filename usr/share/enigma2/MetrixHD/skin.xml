@@ -1028,7 +1028,7 @@
 <screen backgroundColor="transparent" flags="wfNoBorder" name="EMCSelection" position="center,center" size="1280,720" title="Enhanced Movie Center">
   <widget alphatest="on" backgroundColor="metrixBackground2" name="Cover" position="38,85" size="342,199" transparent="0" zPosition="4" />
   <eLabel backgroundColor="metrixBackground2" position="26,22" size="366,629" zPosition="0" />
-  <widget BackColorSel="metrixSelection" CoolBarHPos="10" CoolBarPos="640" CoolBarSize="55,10" CoolBarSizeSa="110,16" CoolDateColor="0" CoolDateFont="SetrixHD;21" CoolDatePos="1000" CoolDateWidth="110" CoolFolderSize="550" CoolFont="SetrixHD;21" CoolHighlightColor="0" CoolMoviePos="35" CoolMovieSize="545" CoolProgressPos="1000" CoolSelectFont="SetrixHD;21" CoolTitleColor="0" DefaultColor="metrixForeground" FinishedColor="metrixAccent1" RecordingColor="metrixRed" UnwatchedColor="metrixForeground" WatchingColor="metrixGreen" backgroundColor="metrixBackground2" foregroundColorSelected="metrixForeground" itemHeight="32" name="list" position="426,108" scrollbarMode="showNever" size="810,385" transparent="1" />
+  <widget BackColorSel="metrixSelection" CoolBarHPos="10" CoolBarPos="640" CoolBarSize="55,10" CoolBarSizeSa="110,16" CoolDateColor="0" CoolDateFont="SetrixHD;21" CoolDatePos="1000" CoolDateWidth="110" CoolFolderSize="550" CoolFont="SetrixHD;21" CoolHighlightColor="0" CoolMoviePos="35" CoolMovieSize="545" CoolProgressPos="1000" CoolSelectFont="SetrixHD;21" CoolTitleColor="0" DefaultColor="metrixAccent1" FinishedColor="metrixForeground" RecordingColor="metrixRed" UnwatchedColor="metrixAccent1" WatchingColor="metrixGreen" backgroundColor="metrixBackground" foregroundColorSelected="metrixForeground" itemHeight="32" name="list" position="426,108" scrollbarMode="showNever" size="810,385" transparent="1" />
   <widget backgroundColor="metrixBackground" font="Regular; 18" foregroundColor="white" halign="left" position="426,64" render="Label" size="790,36" source="Title" text="Title" transparent="1" valign="center" zPosition="0" />
   <widget backgroundColor="un18080911" font="SetrixHD;32" foregroundColor="unffffff" halign="center" name="wait" position="0,293" size="1282,50" valign="center" zPosition="1" />
   <widget backgroundColor="metrixBackground2" font="RegularLight; 28" foregroundColor="metrixForeground" halign="center" options="movetype=running,startpoint=0,direction=left,steptime=25,repeat=5,startdelay=1500,always=0" position="33,29" render="RunningText" size="352,47" source="Service" transparent="1" valign="center" zPosition="10">
@@ -2630,9 +2630,10 @@
     </widget>
     <eLabel position="856,585" zPosition="-1" size="381,70" backgroundColor="metrixBackground2" transparent="0" />
     <!--ClockWidget */-->
-    <widget name="key_red" position="493,620" size="200,25" zPosition="1" font="SetrixHD;22" halign="left" backgroundColor="metrixBackground" transparent="1" foregroundColor="metrixAccent1" />
+    <widget name="key_blue" position="513,620" size="200,25" zPosition="1" font="SetrixHD;22" halign="left" backgroundColor="metrixBackground" transparent="1" foregroundColor="metrixAccent1" />
     <ePixmap pixmap="MetrixHD/buttons/key_menu.png" position="718,615" size="81,40" alphatest="blend" />
-  </screen>
+  <ePixmap pixmap="MetrixHD/buttons/key_blue.png" position="475,615" size="41,40" alphatest="blend" />
+</screen>
   <screen backgroundColor="metrixBackground" flags="wfNoBorder" name="GraphicalEPGPIG" position="0,0" size="1280,720" title="Electronic Program Guide">
     <eLabel backgroundColor="metrixBackground" font="SetrixHD; 35" position="60,33" size="800,50" text="Electronic Program Guide" transparent="1"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD; 24" foregroundColor="metrixAccent1" position="60,78" render="Label" size="700,40" source="Event" transparent="1">
