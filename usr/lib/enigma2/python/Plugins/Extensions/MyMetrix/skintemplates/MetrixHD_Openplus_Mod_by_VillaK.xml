@@ -1993,7 +1993,7 @@
       <convert type="ServiceName">Reference</convert>
     </widget>
     <eLabel position="416,51" zPosition="-10" size="810,619" backgroundColor="metrixBackground" />
-    <eLabel text="Eventview" position="10,552" size="1273,296" font="SetrixHD; 150" backgroundColor="metrixPreTrans2" transparent="1" foregroundColor="metrixPreTrans2" valign="top" zPosition="-20" />
+    <eLabel text="Ver Eventos" position="10,552" size="1273,296" font="SetrixHD; 150" backgroundColor="metrixPreTrans2" transparent="1" foregroundColor="metrixPreTrans2" valign="top" zPosition="-20" />
     <widget name="epg_description" position="425,67" size="789,544" font="SetrixHD; 24" backgroundColor="metrixBackground" transparent="1" foregroundColor="metrixAccent1" />
     <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_hbbtv_off.png" position="65,533" size="64,25" zPosition="1" />
     <widget alphatest="blend" pixmap="MetrixHD/icons/ico_hbbtv_on.png" position="65,533" render="Pixmap" size="64,25" source="session.CurrentService" zPosition="10">
@@ -3121,7 +3121,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget name="list" position="235,114" size="390,450" itemHeight="50" font="Regular; 20" scrollbarMode="showNever" transparent="1" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" backgroundColorSelected="metrixSelection" foregroundColorSelected="metrixAccent1" />
     <widget name="sublist" position="655,131" size="390,400" itemHeight="50" font="Regular; 20" scrollbarMode="showNever" transparent="1" backgroundColor="metrixBackground2" foregroundColor="metrixForeground" backgroundColorSelected="black" foregroundColorSelected="metrixAccent1" />
     <widget name="description" position="17,42" size="1240,55" zPosition="1" font="Regular;20" halign="center" valign="center" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" transparent="1" />
-    <eLabel text="Quick Launch Menu" position="5,535" size="1280,200" font="SetrixHD; 140" noWrap="0" transparent="1" foregroundColor="metrixPreTrans" valign="bottom" zPosition="-50" />
+    <eLabel text="Menú de inicio rápido" position="5,535" size="1280,200" font="SetrixHD; 140" noWrap="0" transparent="1" foregroundColor="metrixPreTrans" valign="bottom" zPosition="-50" />
     <eLabel position="220,105" zPosition="-11" size="420,468" backgroundColor="metrixBackground" />
     <eLabel position="640,123" zPosition="-11" size="420,433" backgroundColor="metrixBackground2" />
   </screen>

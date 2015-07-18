@@ -3548,7 +3548,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="metrixBackground" backgroundColorSelected="metrixSelection" font="Regular; 20" foregroundColor="metrixAccent1" foregroundColorSelected="metrixAccent1" itemHeight="50" name="list" position="235,114" scrollbarMode="showNever" size="390,450" transparent="1"/>
     <widget backgroundColor="metrixBackground2" backgroundColorSelected="black" font="Regular; 20" foregroundColor="metrixForeground" foregroundColorSelected="metrixAccent1" itemHeight="50" name="sublist" position="655,131" scrollbarMode="showNever" size="390,400" transparent="1"/>
     <widget backgroundColor="metrixBackground" font="Regular;20" foregroundColor="metrixAccent1" halign="center" name="description" position="17,42" size="1240,55" transparent="1" valign="center" zPosition="1"/>
-    <eLabel font="SetrixHD; 140" foregroundColor="metrixPreTrans" noWrap="0" position="5,535" size="1280,200" text="Quick Launch Menu" transparent="1" valign="bottom" zPosition="-50"/>
+    <eLabel font="SetrixHD; 140" foregroundColor="metrixPreTrans" noWrap="0" position="5,535" size="1280,200" text="Menú de inicio rápido" transparent="1" valign="bottom" zPosition="-50"/>
     <eLabel backgroundColor="metrixBackground" position="220,105" size="420,468" zPosition="-11"/>
     <eLabel backgroundColor="metrixBackground2" position="640,123" size="420,433" zPosition="-11"/>
   </screen>
@@ -4412,7 +4412,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
    <widget alphatest="blend" position="112,64" render="LBPicon" size="220,132" source="Service" transparent="1" zPosition="5">
       <convert type="ServiceName">Reference</convert>
     </widget>
-    <eLabel font="SetrixHD; 150" foregroundColor="metrixPreTrans" position="10,552" size="1273,296" text="Eventview" transparent="1" valign="top" zPosition="-20"/>
+    <eLabel font="SetrixHD; 150" foregroundColor="metrixPreTrans" position="10,552" size="1273,296" text="Ver Eventos" transparent="1" valign="top" zPosition="-20"/>
  <eLabel backgroundColor="metrixBackground" position="416,51" size="810,619" zPosition="-10"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD; 26" foregroundColor="metrixAccent1" name="epg_description" position="425,67" size="789,544" transparent="1"/>
    
