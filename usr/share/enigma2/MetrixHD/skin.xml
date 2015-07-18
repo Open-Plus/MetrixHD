@@ -2071,7 +2071,7 @@
     <widget font="SetrixHD; 18" halign="right" position="475,425" render="Label" size="55,25" source="global.CurrentTime" transparent="1" valign="center" zPosition="3">
       <convert type="ClockToText">Default</convert>
     </widget>
-    <eLabel font="Regular;18" foregroundColor="metrixAccent1" position="10,304" render="Label" size="490,149" text="Joannnn, Orerivia, Xavi220, VillaK." valign="top" zPosition="1"/>
+    <eLabel font="Regular;18" foregroundColor="metrixAccent1" position="10,304" render="Label" size="490,149" text="Jglez3, Orerivia, Xavi220, VillaK." valign="top" zPosition="1"/>
     <eLabel font="Regular;18" position="10,274" render="Label" size="490,28" text="Equipo de traducción de Plugins:" valign="top" zPosition="1"/>
     <eLabel font="Regular;18" position="10,20" render="Label" size="490,28" text="Traducción de Enigma:" valign="top" zPosition="1"/>
   </screen>
