@@ -1062,6 +1062,10 @@
       <convert type="MenuEntryCompare">MyStreamVOD</convert>
       <convert type="ConditionalShowHide" />
     </widget>
+	<widget alphatest="blend" pixmap="MetrixHD/icons/menu_information_supportchannel.png" position="307,82" render="Pixmap" size="256,256" source="menu">
+      <convert type="MenuEntryCompare">Videoclub</convert>
+      <convert type="ConditionalShowHide"/>
+    </widget>
     <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_mainmenu_timer.png" position="307,82" size="256,256" alphatest="blend">
       <convert type="MenuEntryCompare">timer_menu</convert>
       <convert type="ConditionalShowHide" />
