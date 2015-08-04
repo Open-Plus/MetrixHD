@@ -2963,7 +2963,7 @@
   <widget source="session.CurrentService" render="Label" position="262,425" size="119,32" zPosition="2" font="SetrixHD; 22" halign="right" backgroundColor="metrixBackground2" noWrap="1" transparent="1">
     <convert type="ServicePosition">Length,ShowHours</convert>
   </widget>
-  <widget source="session.CurrentService" render="Progress" pixmap="MetrixHD/colors/00ffffff.png" position="71,410" size="300,5" zPosition="1" transparent="1">
+  <widget source="session.CurrentService" render="Progress" pixmap="MetrixHD/colors/00a61d4d.png" position="71,410" size="300,5" zPosition="1" transparent="1">
     <convert type="ServicePosition">Position</convert>
   </widget>
   <ePixmap position="1130,631" size="81,40" zPosition="10" pixmap="MetrixHD/buttons/key_menu.png" transparent="1" alphatest="blend" />
@@ -2981,25 +2981,6 @@
   <!--ClockWidget */-->
   <eLabel position="432,55" size="500,40" text="Media Player" font="SetrixHD; 26" backgroundColor="metrixBackground" transparent="1" />
 </screen>
-  <screen backgroundColor="transparent" flags="wfNoBorder" name="DirectoryBrowser" position="0,0" size="1280,720" title="Directorybrowser">
-    <eLabel backgroundColor="metrixBackground" position="40,25" size="1205,650" zPosition="-10"/>
-    <widget backgroundColor="metrixBackground" font="SetrixHD;35" position="70,47" render="Label" size="800,43" source="Title" transparent="1"/>
-    <widget backgroundColor="metrixBackground" font="SetrixHD; 26" halign="right" position="1120,37" render="Label" size="100,28" source="global.CurrentTime" transparent="1">
-      <convert type="ClockToText">Default</convert>
-    </widget>
-    <widget backgroundColor="metrixBackground" font="Regular; 15" foregroundColor="metrixAccent1" halign="right" position="931,37" render="Label" size="161,27" source="global.CurrentTime" transparent="1">
-      <convert type="ClockToText">Format:%A</convert>
-    </widget>
-    <widget backgroundColor="metrixBackground" font="Regular; 16" foregroundColor="metrixAccent1" halign="right" position="931,64" render="Label" size="161,29" source="global.CurrentTime" transparent="1">
-      <convert type="ClockToText">Format:%e. %b</convert>
-    </widget>
-    <widget foregroundColor="metrixAccent1" name="filelist" position="70,120" scrollbarMode="showNever" size="710,490" transparent="1" zPosition="3"/>
-    <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/red.png" position=" 70,635" size="30,40"/>
-    <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/green.png" position="360,635" size="30,40"/>
-    <eLabel font="Regular; 20" halign="left" position="105,637" size="250,28" text="Cancelar" transparent="1" valign="top"/>
-    <eLabel font="Regular; 20" halign="left" position="395,637" size="250,28" text="Guardar" transparent="1" valign="top"/>
-    <ePixmap alphatest="blend" pixmap="MetrixHD/icons/setup.png" position="892,268" size="256,256" transparent="1" zPosition="2"/>
-  </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="MediaPlayerSettings" position="0,0" size="1280,720" title="Edit Settings">
     <eLabel backgroundColor="metrixBackground" position="40,25" size="1205,650" zPosition="-10"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD;35" position="70,47" render="Label" size="800,43" source="Title" transparent="1"/>
