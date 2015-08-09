@@ -1545,24 +1545,24 @@
     <ePixmap pixmap="MetrixHD/buttons/blue.png" position="940,635" size="30,40" alphatest="blend" />
     <ePixmap position="920,230" size="256,256" zPosition="2" pixmap="MetrixHD/icons/setup.png" transparent="1" alphatest="blend" />
   </screen>
-  <screen name="ChannelContextMenu" position="center,center" size="1280,720" title="Channellist menu" flags="wfNoBorder" transparent="0" backgroundColor="transparent">
-    <eLabel position="264,51" zPosition="-1" size="340,320" backgroundColor="metrixBackground" transparent="0" />
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="ChannelContextMenu" position="center,center" size="1280,720" title="Channellist menu" transparent="0">
+    <eLabel backgroundColor="metrixBackground" position="264,51" size="340,320" transparent="0" zPosition="-1" />
     <!-- /*ClockWidget-->
-    <widget source="global.CurrentTime" render="Label" position="450,401" size="169,80" font="SetrixHD; 60" halign="left" backgroundColor="metrixBackground2" transparent="1" valign="top">
+    <widget backgroundColor="metrixBackground2" font="SetrixHD; 60" halign="left" position="450,401" render="Label" size="169,80" source="global.CurrentTime" transparent="1" valign="top">
       <convert type="ClockToText">Default</convert>
     </widget>
-    <widget source="global.CurrentTime" render="Label" position="290,444" size="148,29" font="Regular; 20" halign="right" backgroundColor="metrixBackground2" foregroundColor="metrixAccent1" transparent="1">
+    <widget backgroundColor="metrixBackground2" font="Regular; 20" foregroundColor="metrixAccent1" halign="right" position="290,444" render="Label" size="148,29" source="global.CurrentTime" transparent="1">
       <convert type="ClockToText">Format:%e. %b</convert>
     </widget>
-    <widget source="global.CurrentTime" render="Label" position="313,415" size="125,30" font="Regular; 20" halign="right" backgroundColor="metrixBackground2" foregroundColor="metrixAccent1" transparent="1">
+    <widget backgroundColor="metrixBackground2" font="Regular; 20" foregroundColor="metrixAccent1" halign="right" position="313,415" render="Label" size="125,30" source="global.CurrentTime" transparent="1">
       <convert type="ClockToText">Format:%A</convert>
     </widget>
-    <eLabel position="264,410" zPosition="-1" size="340,70" backgroundColor="metrixBackground2" transparent="0" />
+    <eLabel backgroundColor="metrixBackground2" position="264,410" size="340,70" transparent="0" zPosition="-1" />
     <!--ClockWidget */-->
-    <eLabel text="Channellist menu" position="20,552" size="1273,296" font="SetrixHD; 150" backgroundColor="metrixPreTrans" transparent="1" foregroundColor="metrixPreTrans" valign="top" zPosition="-50" />
-    <widget name="menu" position="661,61" size="401,550" zPosition="3" itemHeight="35" scrollbarMode="showNever" foregroundColor="metrixAccent1" enableWrapAround="1" transparent="1" />
-    <eLabel name="" position="655,51" zPosition="-11" size="412,565" backgroundColor="metrixBackground" foregroundColor="metrixForeground" />
-    <ePixmap position="310,85" size="256,256" pixmap="MetrixHD/icons/service_info.png" alphatest="blend" />
+    <eLabel backgroundColor="metrixPreTrans" font="SetrixHD; 150" foregroundColor="metrixPreTrans" position="20,552" size="1273,296" text="Channellist menu" transparent="1" valign="top" zPosition="-50" />
+    <widget enableWrapAround="1" foregroundColor="metrixAccent1" itemHeight="35" name="menu" position="661,61" scrollbarMode="showNever" size="547,550" transparent="1" zPosition="3" />
+    <eLabel backgroundColor="metrixBackground" foregroundColor="metrixForeground" name="" position="655,51" size="558,565" zPosition="-11" />
+    <ePixmap alphatest="blend" pixmap="MetrixHD/icons/service_info.png" position="310,85" size="256,256" />
   </screen>
   <screen name="ChannelSelection" position="1,center" size="1280,720" title="Channel Selection" flags="wfNoBorder" backgroundColor="transparent">
     <eLabel backgroundColor="metrixBackground2" position="859,58" size="376,587" zPosition="-10" />
