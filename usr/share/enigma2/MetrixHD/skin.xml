@@ -1133,18 +1133,18 @@
     <widget backgroundColor="metrixBackground" font="SetrixHD;20" foregroundColor="metrixAccent1" halign="center" name="key_green" position="549,458" shadowColor="metrixBackground" shadowOffset="-1,-1" size="140,40" transparent="1" valign="center" zPosition="1"/>
   </screen>
   <!-- Ecm Info -->
-  <screen backgroundColor="transparent" flags="wfNoBorder" name="EcmInfoScreen" position="600,150" size="600, 80" zPosition="1">
-    <eLabel backgroundColor="metrixBackground" position="0,5" size="600,80" zPosition="0"/>
-    <widget font="SetrixHD;16" foregroundColor="metrixForeground" halign="center" name="irdeto" position="149,14" size="18, 25" text="I" transparent="1" valign="center" zPosition="3"/>
-    <widget font="SetrixHD;16" foregroundColor="metrixForeground" halign="center" name="seca" position="172,14" size="18, 25" text="S" transparent="1" valign="center" zPosition="3"/>
-    <widget font="SetrixHD;16" foregroundColor="metrixForeground" halign="center" name="nagra" position="217,14" size="18, 25" text="N" transparent="1" valign="center" zPosition="3"/>
-    <widget font="SetrixHD;16" foregroundColor="metrixForeground" halign="center" name="via" position="195,14" size="18, 25" text="V" transparent="1" valign="center" zPosition="3"/>
-    <widget font="SetrixHD;16" foregroundColor="metrixForeground" halign="center" name="conax" position="239,14" size="34,25" text="CO" transparent="1" valign="center" zPosition="3"/>
-    <widget font="SetrixHD;16" foregroundColor="metrixForeground" halign="center" name="betacrypt" position="277,14" size="38, 25" text="BC" transparent="1" valign="center" zPosition="3"/>
-    <widget font="SetrixHD;16" foregroundColor="metrixForeground" halign="center" name="crypto" position="319,14" size="38, 25" text="CW" transparent="1" valign="center" zPosition="3"/>
-    <widget font="SetrixHD;16" foregroundColor="metrixForeground" halign="center" name="dreamcrypt" position="361,14" size="38, 25" text="DC" transparent="1" valign="center" zPosition="3"/>
-    <widget font="SetrixHD;16" foregroundColor="metrixForeground" halign="center" name="nds" position="403,14" size="45, 25" text="NDS" transparent="1" valign="center" zPosition="3"/>
-    <widget font="SetrixHD;16" foregroundColor="metrixForeground" halign="center" name="ecmInfo" noWrap="1" position="18,44" size="560,25" transparent="1" valign="center" zPosition="3"/>
+ <screen name="EcmInfoScreen" flags="wfNoBorder" position="center,center" size="604,84" zPosition="1" backgroundColor="metrixBackground" title="ECMInfo" transparent="0">
+  <eLabel backgroundColor="metrixBackground" position="9,11" size="229,25" zPosition="3" transparent="1" text="CCCAM INFO OPENPLUS" foregroundColor="unf0b400" font="RegularLight; 18" halign="center" />
+  <widget name="irdeto" position="249,11" size="18,25" font="Regular; 16" text="I" valign="center" halign="center" zPosition="3" transparent="1" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" />
+  <widget name="seca" position="274,11" size="18, 25" font="Regular; 16" text="S" valign="center" halign="center" zPosition="3" transparent="1" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" />
+  <widget name="nagra" position="324,11" size="18, 25" font="Regular; 16" text="N" valign="center" halign="center" zPosition="3" transparent="1" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" />
+  <widget name="via" position="299,11" size="18, 25" font="Regular; 16" text="V" valign="center" halign="center" zPosition="3" transparent="1" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" />
+  <widget name="conax" position="350,11" size="34,25" font="Regular; 16" text="CO" valign="center" halign="center" zPosition="3" transparent="1" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" />
+  <widget name="betacrypt" position="392,11" size="38, 25" font="Regular; 16" text="BC" valign="center" halign="center" zPosition="3" transparent="1" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" />
+  <widget name="crypto" position="438,11" size="38, 25" font="Regular; 16" text="CW" valign="center" halign="center" zPosition="3" transparent="1" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" />
+  <widget name="dreamcrypt" position="484,11" size="38, 25" font="Regular; 16" text="DC" valign="center" halign="center" zPosition="3" transparent="1" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" />
+  <widget name="nds" position="531,11" size="45, 25" font="Regular; 16" text="NDS" valign="center" halign="center" zPosition="3" transparent="1" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" />
+  <widget name="ecmInfo" position="8,47" size="588,30" font="RegularLight; 14" valign="center" noWrap="1" zPosition="3" halign="center" transparent="1" backgroundColor="metrixBackground" foregroundColor="white" />
   </screen>
    <screen backgroundColor="transparent" flags="wfNoBorder" name="Volume" position="49,40" size="320,70" title="Volume">
     <widget name="Volume" pixmap="MetrixHD/colors/00a61d4d.png" position="70,32" size="170,5" transparent="1" zPosition="3"/>
