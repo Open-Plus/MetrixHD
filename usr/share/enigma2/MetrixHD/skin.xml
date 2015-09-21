@@ -2045,7 +2045,7 @@
     <eLabel backgroundColor="metrixBackground" font="SetrixHD; 24" foregroundColor="metrixAccent1" position="70,386" render="Label" size="510,40" text="VERSION DE KERNEL:" transparent="0"/>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD; 24" foregroundColor="metrixAccent1" position="70,437" render="Label" size="510,40" text="VERSION DE IMAGEN:" transparent="0"/>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD; 26" foregroundColor="metrixAccent1" position="69,535" size="700,40" text="Soporte para Openplus " transparent="1"/>
-    <eLabel backgroundColor="metrixBackground" font="SetrixHD; 26" position="69,570" size="700,40" text="www.linux-box.es" transparent="1"/>
+    <eLabel backgroundColor="metrixBackground" font="SetrixHD; 26" position="69,570" size="700,40" text="www.open-plus.es" transparent="1"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD; 26" foregroundColor="metrixAccent1" position="69,570" render="Label" size="700,40" source="HDDHeader" transparent="1"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD; 24" position="69,560" render="Label" size="700,65" source="hddA" transparent="1"/>
     <eLabel backgroundColor="metrixBackground2" font="Regular; 16" halign="center" position="927,349" size="124,53" text="Skin Mod" transparent="1" valign="top"/>
@@ -2473,7 +2473,7 @@
   <widget source="MountsHeader" render="Label" position="69,382" backgroundColor="metrixBackground" size="358,36" font="Regular;20" transparent="1" zPosition="-1" />
   <widget source="mounts" render="Label" position="69,418" size="650,140" font="SetrixHD; 18" transparent="1" zPosition="1" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" />
   <eLabel text="Soporte para Openplus " position="69,555" size="700,40" font="SetrixHD; 26" backgroundColor="metrixBackground" transparent="1" foregroundColor="metrixAccent1" />
-  <eLabel text="www.linux-box.es" position="69,590" size="700,40" font="SetrixHD; 26" backgroundColor="metrixBackground" transparent="1" />
+  <eLabel text="www.open-plus.es" position="69,590" size="700,40" font="SetrixHD; 26" backgroundColor="metrixBackground" transparent="1" />
   <eLabel text="Skin Mod" position="927,349" size="124,53" font="Regular; 16" backgroundColor="metrixBackground2" transparent="1" valign="top" halign="center" />
   <ePixmap position="957,59" size="256,256" zPosition="2" pixmap="MetrixHD/icons/info.png" transparent="1" alphatest="blend" />
   <ePixmap position="59,7" size="350,44" pixmap="MetrixHD/menu/db.png" transparent="1" alphatest="blend" zPosition="-7" />
@@ -3887,7 +3887,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="metrixBackground" font="SetrixHD; 24" foregroundColor="metrixAccent1" position="70,386" render="Label" size="510,40" source="IFtext" transparent="0"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD; 24" foregroundColor="metrixAccent1" position="70,437" render="Label" size="510,40" source="Statustext" transparent="0"/>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD; 26" foregroundColor="metrixAccent1" position="69,535" size="700,40" text="Soporte para Openplus " transparent="1"/>
-    <eLabel backgroundColor="metrixBackground" font="SetrixHD; 26" position="69,570" size="700,40" text="www.linux-box.es" transparent="1"/>
+    <eLabel backgroundColor="metrixBackground" font="SetrixHD; 26" position="69,570" size="700,40" text="www.open-plus.es" transparent="1"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD; 26" foregroundColor="metrixAccent1" position="69,570" render="Label" size="700,40" source="HDDHeader" transparent="1"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD; 24" position="69,560" render="Label" size="700,65" source="hddA" transparent="1"/>
     <eLabel backgroundColor="metrixBackground2" font="Regular; 16" halign="center" position="927,349" size="124,53" text="Skin Mod" transparent="1" valign="top"/>
@@ -3925,7 +3925,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <eLabel backgroundColor="metrixBackground" font="SetrixHD; 24" foregroundColor="metrixAccent1" position="70,386" render="Label" size="510,40" text="MEMORIA FLASH TOTAL:" transparent="0"/>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD; 24" foregroundColor="metrixAccent1" position="70,437" render="Label" size="510,40" text="MEMORIA FLASH LIBRE:" transparent="0"/>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD; 26" foregroundColor="metrixAccent1" position="69,535" size="700,40" text="Soporte para Openplus " transparent="1"/>
-    <eLabel backgroundColor="metrixBackground" font="SetrixHD; 26" position="69,570" size="700,40" text="www.linux-box.es" transparent="1"/>
+    <eLabel backgroundColor="metrixBackground" font="SetrixHD; 26" position="69,570" size="700,40" text="www.open-plus.es" transparent="1"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD; 26" foregroundColor="metrixAccent1" position="69,570" render="Label" size="700,40" source="HDDHeader" transparent="1"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD; 24" position="69,560" render="Label" size="700,65" source="hddA" transparent="1"/>
     <eLabel backgroundColor="metrixBackground2" font="Regular; 16" halign="center" position="927,349" size="124,53" text="Skin Mod" transparent="1" valign="top"/>
