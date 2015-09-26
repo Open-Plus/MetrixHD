@@ -3785,24 +3785,27 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <ePixmap alphatest="blend" pixmap="MetrixHD/icons/info.png" position="932,242" size="256,256" transparent="1" zPosition="2"/>
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="Setup" position="0,0" size="1280,720" title="Setup">
-    <eLabel backgroundColor="metrixBackground" position="40,25" size="1205,650" zPosition="-10"/>
-    <widget backgroundColor="metrixBackground" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
+    <eLabel text="Configuración..." position="70,47" foregroundColor="metrixForeground" size="525,50" noWrap="0" font="SetrixHD; 35" backgroundColor="metrixBackground" transparent="1" />
+    <widget name="config" position="70,110" size="700,510" itemHeight="30" font="Regular; 20" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" backgroundColorSelected="metrixSelection" foregroundColorSelected="metrixAccent1" transparent="1" />
+    <widget name="description" position="810,415" size="415,190" font="Regular; 20" foregroundColor="metrixForeground" halign="center" backgroundColor="metrixBackground2" valign="center" transparent="1" />
+    <eLabel name="layer1" position="40,25" zPosition="-10" size="755,650" backgroundColor="metrixBackground" />
+    <eLabel name="layer2" position="795,60" zPosition="-10" size="445,580" backgroundColor="metrixBackground2" />
+    <widget source="global.CurrentTime" render="Label" position="647,20" size="140,60" font="SetrixHD; 50" noWrap="1" halign="right" valign="center" foregroundColor="metrixForeground" backgroundColor="metrixBackground" transparent="1">
       <convert type="ClockToText">Default</convert>
     </widget>
-    <widget backgroundColor="metrixBackground" font="Regular; 15" foregroundColor="metrixAccent1" halign="right" position="931,37" render="Label" size="161,27" source="global.CurrentTime" transparent="1">
+    <widget source="global.CurrentTime" render="Label" position="512,30" size="140,27" font="Regular; 16" noWrap="1" halign="right" valign="bottom" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" transparent="1">
       <convert type="ClockToText">Format:%A</convert>
     </widget>
-    <widget backgroundColor="metrixBackground" font="Regular; 16" foregroundColor="metrixAccent1" halign="right" position="931,64" render="Label" size="161,29" source="global.CurrentTime" transparent="1">
-      <convert type="ClockToText">Format:%e. %b</convert>
+    <widget source="global.CurrentTime" render="Label" position="512,54" size="140,27" font="Regular; 16" noWrap="1" halign="right" valign="bottom" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" transparent="1">
+      <convert type="ClockToText">Format:%e. %b.</convert>
     </widget>
-    <eLabel backgroundColor="metrixBackground" font="SetrixHD;35" position="70,47" size="800,43" text="Setup" transparent="1"/>
-    <widget backgroundColor="metrixBackground" enableWrapAround="1" foregroundColor="metrixAccent1" itemHeight="30" name="config" position="70,100" scrollbarMode="showOnDemand" size="700,515" transparent="1"/>
-    <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/red.png" position=" 70,635" size="30,40"/>
-    <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/green.png" position="360,635" size="30,40"/>
-    <widget backgroundColor="metrixBackground" font="SetrixHD;20" foregroundColor="metrixAccent1" position="105,637" render="Label" size="240,24" source="key_red" transparent="1" zPosition="1"/>
-    <widget backgroundColor="metrixBackground" font="SetrixHD;20" foregroundColor="metrixAccent1" position="395,637" render="Label" size="240,24" source="key_green" transparent="1" zPosition="1"/>
-    <ePixmap alphatest="blend" pixmap="MetrixHD/icons/setup.png" position="920,230" size="256,256" transparent="1" zPosition="2"/>
-  </screen>
+    <ePixmap pixmap="MetrixHD/buttons/key_red.png" position="35,635" size="30,40" alphatest="blend" />
+    <ePixmap pixmap="MetrixHD/buttons/key_green.png" position="218,635" size="30,40" alphatest="blend" />
+    <widget source="key_red" render="Label" position="70,638" size="170,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
+    <widget source="key_green" render="Label" position="253,638" size="170,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
+    <ePixmap position="1140,600" size="81,40" zPosition="10" pixmap="MetrixHD/buttons/key_exit.png" transparent="1" alphatest="blend" />
+    <ePixmap position="890,175" size="256,256" zPosition="2" pixmap="MetrixHD/icons/menu_extended_timshift_setup.png" transparent="1" alphatest="blend" />
+ </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="SimpleChannelSelection" position="0,0" size="1280,720" title="Channel Selection">
     <eLabel backgroundColor="metrixBackground" position="40,25" size="1205,650" zPosition="-10"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD; 50" halign="left" position="1103,28" render="Label" size="140,60" source="global.CurrentTime" transparent="1">
