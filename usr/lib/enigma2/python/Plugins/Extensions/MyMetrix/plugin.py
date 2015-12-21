@@ -104,8 +104,7 @@ def Plugins(**kwargs):
 			name = _('MyMetrix'),
 			description = _('Metrify Your Vu+'),
 			where = [
-			PluginDescriptor.WHERE_PLUGINMENU,
-			PluginDescriptor.WHERE_EXTENSIONSMENU
+			PluginDescriptor.WHERE_PLUGINMENU
 			],
 			icon = "pluginhd.png", 
 			fnc = main
@@ -114,8 +113,7 @@ def Plugins(**kwargs):
 			name = _('OpenStore'),
 			description = _('Explore The Variety Of Your Vu+'),
 			where = [
-			PluginDescriptor.WHERE_PLUGINMENU,
-			PluginDescriptor.WHERE_EXTENSIONSMENU
+			PluginDescriptor.WHERE_PLUGINMENU
 			],
 			icon = "plugin-storehd.png", 
 			fnc = openStore
@@ -127,8 +125,7 @@ def Plugins(**kwargs):
 			name = _('MyMetrix'),
 			description = _('Metrify Your Vu+'),
 			where = [
-			PluginDescriptor.WHERE_PLUGINMENU,
-			PluginDescriptor.WHERE_EXTENSIONSMENU
+			PluginDescriptor.WHERE_PLUGINMENU
 			],
 			icon = "plugin.png", 
 			fnc = main
@@ -137,8 +134,7 @@ def Plugins(**kwargs):
 			name = _('OpenStore'),
 			description = _('Explore The Variety Of Your Vu+'),
 			where = [
-			PluginDescriptor.WHERE_PLUGINMENU,
-			PluginDescriptor.WHERE_EXTENSIONSMENU
+			PluginDescriptor.WHERE_PLUGINMENU
 			],
 			icon = "plugin-store.png", 
 			fnc = openStore
