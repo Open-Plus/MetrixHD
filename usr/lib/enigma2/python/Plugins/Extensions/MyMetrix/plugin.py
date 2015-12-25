@@ -9,7 +9,7 @@ import cookielib
 from xml.dom.minidom import parseString
 import gettext
 import MultipartPostHandler
-from enigma import eListboxPythonMultiContent, gFont, eTimer, eDVBDB, getDesktop
+from enigma import eListboxPythonMultiContent, gFont, eTimer, eDVBDB
 from Screens.Standby import TryQuitMainloop
 from Components.ActionMap import ActionMap
 from Components.AVSwitch import AVSwitch
