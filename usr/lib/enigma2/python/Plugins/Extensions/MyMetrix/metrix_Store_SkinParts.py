@@ -256,7 +256,7 @@ class OpenScreen(Screen, ConfigListScreen):
             type = self.currenttype
             path = metrixDefaults.pathRoot() + 'skinparts/' + type + 's/active/' + type + '_' + str(id) + '/'
             if os.path.exists(path):
-                self['isInstalled'].setText('Already installed!')
+                self['isInstalled'].setText(_('Already installed!'))
             else:
                 self['isInstalled'].setText('')
         except Exception as e:

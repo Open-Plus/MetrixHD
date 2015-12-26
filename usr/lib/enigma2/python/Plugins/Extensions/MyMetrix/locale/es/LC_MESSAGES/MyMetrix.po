@@ -2,18 +2,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MyMetrix 2.0\n"
 "POT-Creation-Date: 2013-08-12 01:48+0100\n"
-"PO-Revision-Date: 2013-11-25 06:26+0100\n"
-"Last-Translator: iMaxxx <none@ima.xxx>\n"
-"Language-Team: iMaxxx <support@mymetrix.de>\n"
-"Language: de\n"
+"PO-Revision-Date: 2015-12-26 02:15+0100\n"
+"Last-Translator: VillaK\n"
+"Language-Team: OpenPlus <www.open-plus.es>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: /Users/sinthernn/Dropbox/Projekte/Vu+ MetroTheme/Package/"
 "test/MyMetrix Plugin\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: /Users/sinthernn/Dropbox/Projekte/Vu+ MetroTheme/"
 "Package/2.0.14/source\n"
 
@@ -1003,7 +1004,7 @@ msgstr "Mostar información de encriptación"
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:170
 #: Plugin/metrixPreview2.py:173 Plugin/metrixPreviewSIB.py:176
 msgid "21:15 - 22:10 Accent 1"
-msgstr "21:15 - 22:10 Akzent 1"
+msgstr "21:15 - 22:10 Accent 1"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:172
@@ -1015,55 +1016,55 @@ msgstr "20:15 - 22:10"
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:173
 #: Plugin/metrixPreview2.py:176 Plugin/metrixPreviewSIB.py:179
 msgid "+10 min"
-msgstr ""
+msgstr "+10 min"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:174
 #: Plugin/metrixPreview2.py:177 Plugin/metrixPreviewSIB.py:180
 msgid "50 min"
-msgstr ""
+msgstr "50 min"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:179
 #: Plugin/metrixPreview2.py:182 Plugin/metrixPreviewSIB.py:185
 msgid "18"
-msgstr ""
+msgstr "18"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:180
 #: Plugin/metrixPreview2.py:183 Plugin/metrixPreviewSIB.py:186
 msgid "Â°C"
-msgstr ""
+msgstr "Â°C"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:181
 #: Plugin/metrixPreview2.py:184 Plugin/metrixPreviewSIB.py:187
 msgid "23Â°C"
-msgstr ""
+msgstr "23Â°C"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:182
 #: Plugin/metrixPreview2.py:185 Plugin/metrixPreviewSIB.py:188
 msgid "16Â°C"
-msgstr ""
+msgstr "16Â°C"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:183
 #: Plugin/metrixPreview2.py:186 Plugin/metrixPreviewSIB.py:189
 msgid "H"
-msgstr ""
+msgstr "H"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:185
 #: Plugin/metrixPreview2.py:188 Plugin/metrixPreviewSIB.py:191
 msgid "18Â°C"
-msgstr ""
+msgstr "18Â°C"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:186
 #: Plugin/metrixPreview2.py:189 Plugin/metrixPreviewSIB.py:192
 msgid "12Â°C"
-msgstr ""
+msgstr "12Â°C"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixPreview.py:187
