@@ -208,7 +208,7 @@ msgstr "OpenStore // Plugins & Más"
 #: Plugin/metrixGeneral.py:121 Plugin/metrixGeneral.py:124
 #: Plugin/metrixGeneral.py:129 Plugin/metrixGeneral.py:135
 msgid " "
-msgstr ""
+msgstr " "
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrix_Store_Menu.py:153
@@ -414,7 +414,7 @@ msgstr "Cargando, por favor espere..."
 #: Plugin/metrix_Store_Packages.py:118 Plugin/metrix_Store_SkinParts.py:124
 #: Plugin/metrix_Store_SkinParts.py:126
 msgid "OpenStore // "
-msgstr "OpenStore //"
+msgstr "OpenStore // "
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix
@@ -530,38 +530,38 @@ msgstr "Colores personalizados (r,g,b):"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:129
-msgid "    Selection"
-msgstr "Selección"
+msgid "   Selection"
+msgstr "   Selección"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:130
 msgid "    Background"
-msgstr "Fondo"
+msgstr "    Fondo"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:131
 msgid "    Background 2"
-msgstr "Fondo 2"
+msgstr "    Fondo 2"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:132
 msgid "    Foreground"
-msgstr "Primer plano"
+msgstr "    Primer plano"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:133
 msgid "    Background text"
-msgstr "Texto de Fondo"
+msgstr "    Texto de Fondo"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:134
 msgid "    Accent 1"
-msgstr "Accent 1"
+msgstr "    Accent 1"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixColors.py:135
 msgid "    Accent 2"
-msgstr "Accent 2"
+msgstr "    Accent 2"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixConnector.py:181
@@ -876,7 +876,7 @@ msgid ""
 "----------------------------------------------------------------------"
 msgstr ""
 "Actualizaciones automáticas "
-"-------------------------------------------------------------"
+"----------------------------------------------------------------------"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:127
@@ -895,7 +895,7 @@ msgid ""
 "-----------------------------------------------------------------------------------"
 msgstr ""
 "Piel "
-"------------------------------------------------------------------------------------"
+"-----------------------------------------------------------------------------------"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:131
@@ -914,7 +914,7 @@ msgid ""
 "--------------------------------------------------------------------------------"
 msgstr ""
 "Tiempo "
-"---------------------------------------------------------------------------------"
+"--------------------------------------------------------------------------------"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixGeneral.py:138
@@ -1137,22 +1137,25 @@ msgstr "Nombre de diseño"
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixSubmitDesign.py:121
 msgid "Author: "
-msgstr "Autor:"
+msgstr "Autor: "
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/metrixWeather.py:108
 msgid "Refresh Interval (min)"
-msgstr "Intervalo de Refresco  (min)"
+msgstr "Intervalo de Refresco (min)"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/plugin.py:127
 msgid "Metrify Your Vu+"
-msgstr "Metrify Tu Vu+"
+msgstr "Metrixficate"
 
 #: /Users/sinthernn/Dropbox/Projekte/Vu+
 #: MetroTheme/Package/2.0.14/source/MyMetrix Plugin/plugin.py:128
 msgid "Explore The Variety Of Your Vu+"
-msgstr "Explorar la variedad de Tu Vu+"
+msgstr "Explora la variedad para tu Desco"
+
+msgid "Already installed!"
+msgstr "Skinpart Instalada!"
 
 #~ msgid "AutoUpdate"
 #~ msgstr "Automatisch Aktualisieren"
