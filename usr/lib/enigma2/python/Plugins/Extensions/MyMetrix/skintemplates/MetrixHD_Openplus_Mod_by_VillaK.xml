@@ -4008,7 +4008,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
  <ePixmap pixmap="MetrixHD/buttons/key_yellow.png" position="403,635" size="30,40" alphatest="blend" />
  <ePixmap pixmap="MetrixHD/buttons/key_green.png" position="215,636" size="30,40" alphatest="blend" />
  <ePixmap pixmap="MetrixHD/buttons/key_blue.png" position="588,635" size="30,40" alphatest="blend" />
- <eLabel position="810,410" size="415,190" font="Regular; 20" foregroundColor="metrixForeground" halign="left" backgroundColor="metrixBackground2" valign="center" transparent="1" text="Press the yellow button to configure channel list sent to another receiver in your network. Press blue button to download the list m3u media/hdd." />
+ <eLabel position="810,410" size="415,190" font="Regular; 20" foregroundColor="metrixForeground" halign="left" backgroundColor="metrixBackground2" valign="center" transparent="1" text="First configure IP and port of the server and click save... Then Press the yellow button to configure channel list and sent to another receiver in your network. Press blue button to download the list m3u media/hdd." />
  <widget name="key_red" position="65,638" size="160,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
  <widget name="key_yellow" position="438,638" size="160,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
  
@@ -4035,7 +4035,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
  <ePixmap pixmap="MetrixHD/buttons/key_yellow.png" position="403,635" size="30,40" alphatest="blend" />
  <ePixmap pixmap="MetrixHD/buttons/key_green.png" position="215,636" size="30,40" alphatest="blend" />
  <ePixmap pixmap="MetrixHD/buttons/key_blue.png" position="588,635" size="30,40" alphatest="blend" />
- <eLabel position="810,410" size="415,190" font="Regular; 20" foregroundColor="metrixForeground" halign="left" backgroundColor="metrixBackground2" valign="center" transparent="1" text="Press the green button to send channel list to another receiver of your network" />
+ <eLabel position="810,410" size="415,190" font="Regular; 20" foregroundColor="metrixForeground" halign="left" backgroundColor="metrixBackground2" valign="center" transparent="1" text="First configure Ip, user and password of your receiver client and then press the green button to send channel list to another receiver of your network." />
  <widget name="key_red" position="65,638" size="160,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
  <widget name="key_yellow" position="438,638" size="160,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
  
