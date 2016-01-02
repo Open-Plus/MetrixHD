@@ -1396,6 +1396,10 @@
       <convert type="MenuEntryCompare">netrts_setup</convert>
       <convert type="ConditionalShowHide"/>
     </widget>
+   <widget alphatest="blend" pixmap="MetrixHD/icons/menu_network_netnfs_setup.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
+    <convert type="MenuEntryCompare">udpxy_setup</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
     <eLabel backgroundColor="metrixBackground" foregroundColor="metrixBackground" name="" position="645,51" size="458,565" zPosition="-11"/>
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="menu_timermenu" position="0,0" size="1280,720" title="Main menu">
@@ -4631,4 +4635,59 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget alphatest="blend" position="935,64" render="XPicon" size="220,132" source="ServiceEvent" transparent="1" zPosition="2">
           <convert type="MetrixRefString">ServicelistRef</convert>
     </widget>
-</screen></skin>
+</screen>
+<screen name="iptvconf" title="Movistar+ Iptv Server Config" position="center,center" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
+ <eLabel name="layer1" position="40,25" zPosition="-10" size="755,650" backgroundColor="metrixBackground" />
+ <eLabel name="layer2" position="795,60" zPosition="-10" size="445,580" backgroundColor="metrixBackground2" />
+ <widget source="global.CurrentTime" render="Label" position="647,20" size="140,60" font="SetrixHD; 50" noWrap="1" halign="right" valign="center" foregroundColor="metrixForeground" backgroundColor="metrixBackground" transparent="1">
+ <convert type="ClockToText">Default</convert>
+ </widget>
+ <widget source="global.CurrentTime" render="Label" position="512,30" size="140,27" font="Regular; 16" noWrap="1" halign="right" valign="bottom" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" transparent="1">
+ <convert type="ClockToText">Format:%A</convert>
+ </widget>
+ <widget source="global.CurrentTime" render="Label" position="512,54" size="140,27" font="Regular; 16" noWrap="1" halign="right" valign="bottom" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" transparent="1">
+ <convert type="ClockToText">Format:%e. %b.</convert>
+ </widget>
+ <widget source="Title" render="Label" position="70,47" foregroundColor="metrixForeground" size="525,50" font="SetrixHD; 35" backgroundColor="metrixBackground" transparent="1" />
+ <widget name="config" position="70,130" size="696,451" font="Regular;22" valign="center" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
+ <ePixmap pixmap="MetrixHD/buttons/key_red.png" position="30,635" size="30,40" alphatest="blend" />
+ <ePixmap pixmap="MetrixHD/buttons/key_yellow.png" position="403,635" size="30,40" alphatest="blend" />
+ <ePixmap pixmap="MetrixHD/buttons/key_green.png" position="215,636" size="30,40" alphatest="blend" />
+ <ePixmap pixmap="MetrixHD/buttons/key_blue.png" position="588,635" size="30,40" alphatest="blend" />
+ <eLabel position="810,410" size="415,190" font="Regular; 20" foregroundColor="metrixForeground" halign="left" backgroundColor="metrixBackground2" valign="center" transparent="1" text="Press the yellow button to configure channel list sent to another receiver in your network. Press blue button to download the list m3u media/hdd." />
+ <widget name="key_red" position="65,638" size="160,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
+ <widget name="key_yellow" position="438,638" size="160,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
+ 
+<widget name="key_green" position="250,638" size="160,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
+ <widget name="key_blue" position="623,639" size="160,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
+ <ePixmap position="1140,600" size="81,40" zPosition="10" pixmap="MetrixHD/buttons/key_exit.png" transparent="1" alphatest="blend" />
+ <ePixmap position="890,175" size="256,256" zPosition="2" pixmap="MetrixHD/icons/menu_network_netnfs_setup.png" transparent="1" alphatest="blend" />
+ </screen>
+<screen name="iptvconfsend" title="Movistar+ Iptv Config Sharing" position="center,center" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
+ <eLabel name="layer1" position="40,25" zPosition="-10" size="755,650" backgroundColor="metrixBackground" />
+ <eLabel name="layer2" position="795,60" zPosition="-10" size="445,580" backgroundColor="metrixBackground2" />
+ <widget source="global.CurrentTime" render="Label" position="647,20" size="140,60" font="SetrixHD; 50" noWrap="1" halign="right" valign="center" foregroundColor="metrixForeground" backgroundColor="metrixBackground" transparent="1">
+ <convert type="ClockToText">Default</convert>
+ </widget>
+ <widget source="global.CurrentTime" render="Label" position="512,30" size="140,27" font="Regular; 16" noWrap="1" halign="right" valign="bottom" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" transparent="1">
+ <convert type="ClockToText">Format:%A</convert>
+ </widget>
+ <widget source="global.CurrentTime" render="Label" position="512,54" size="140,27" font="Regular; 16" noWrap="1" halign="right" valign="bottom" foregroundColor="metrixAccent1" backgroundColor="metrixBackground" transparent="1">
+ <convert type="ClockToText">Format:%e. %b.</convert>
+ </widget>
+ <widget source="Title" render="Label" position="70,47" foregroundColor="metrixForeground" size="525,50" font="SetrixHD; 35" backgroundColor="metrixBackground" transparent="1" />
+ <widget name="config" position="70,130" size="696,451" font="Regular;22" valign="center" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
+ <ePixmap pixmap="MetrixHD/buttons/key_red.png" position="30,635" size="30,40" alphatest="blend" />
+ <ePixmap pixmap="MetrixHD/buttons/key_yellow.png" position="403,635" size="30,40" alphatest="blend" />
+ <ePixmap pixmap="MetrixHD/buttons/key_green.png" position="215,636" size="30,40" alphatest="blend" />
+ <ePixmap pixmap="MetrixHD/buttons/key_blue.png" position="588,635" size="30,40" alphatest="blend" />
+ <eLabel position="810,410" size="415,190" font="Regular; 20" foregroundColor="metrixForeground" halign="left" backgroundColor="metrixBackground2" valign="center" transparent="1" text="Press the green button to send channel list to another receiver of your network" />
+ <widget name="key_red" position="65,638" size="160,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
+ <widget name="key_yellow" position="438,638" size="160,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
+ 
+<widget name="key_green" position="250,638" size="160,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
+ <widget name="key_blue" position="623,639" size="160,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
+ <ePixmap position="1140,600" size="81,40" zPosition="10" pixmap="MetrixHD/buttons/key_exit.png" transparent="1" alphatest="blend" />
+ <ePixmap position="890,175" size="256,256" zPosition="2" pixmap="MetrixHD/icons/menu_network_netnfs_setup.png" transparent="1" alphatest="blend" />
+  </screen>
+</skin>
