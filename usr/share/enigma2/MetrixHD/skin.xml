@@ -1674,6 +1674,14 @@
       <convert type="MenuEntryCompare">OpenStore</convert>
       <convert type="ConditionalShowHide"/>
     </widget>
+       <widget alphatest="blend" pixmap="MetrixHD/icons/menu_mainmenu_openwea.png" position="307,82" render="Pixmap" size="256,256" source="menu">
+      <convert type="MenuEntryCompare">openweather</convert>
+      <convert type="ConditionalShowHide"/>
+    </widget>
+      <widget alphatest="blend" pixmap="MetrixHD/icons/tvweb.png" position="307,82" render="Pixmap" size="256,256" source="menu">
+      <convert type="MenuEntryCompare">TVweb</convert>
+      <convert type="ConditionalShowHide"/>
+    </widget>
     <widget alphatest="blend" pixmap="MetrixHD/icons/menu_information_supportchannel.png" position="307,82" render="Pixmap" size="256,256" source="menu">
       <convert type="MenuEntryCompare">MyStreamVOD</convert>
       <convert type="ConditionalShowHide"/>
