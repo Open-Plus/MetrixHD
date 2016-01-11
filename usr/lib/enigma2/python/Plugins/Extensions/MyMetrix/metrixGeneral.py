@@ -92,7 +92,7 @@ class OpenScreen(Screen, ConfigListScreen):
         list.append(getConfigListEntry(_('Skin template'), config.plugins.MyMetrix.templateFile))
         list.append(getConfigListEntry(_(' ')))
         list.append(getConfigListEntry(_('Weather --------------------------------------------------------------------------------')))
-        list.append(getConfigListEntry(_('MetrixWeather ID'), config.plugins.MetrixWeather.woeid))
+        list.append(getConfigListEntry(_('MetrixWeather ID'), config.plugins.yweather.weather_city))
         list.append(getConfigListEntry(_('Unit'), config.plugins.MetrixWeather.tempUnit))
         ConfigListScreen.__init__(self, list)
         self['actions'] = ActionMap(['OkCancelActions',

@@ -6,7 +6,7 @@ from Components.config import config, ConfigSubsection, configfile, ConfigText, 
 config = metrixDefaults.loadDefaults()
 
 def GetWeather():
-    woeid = config.plugins.MetrixWeather.woeid.value
+    woeid = config.plugins.yweather.weather_city.value
     print '[MetrixWeather] lookup for ID ' + str(woeid)
     url = 'http://query.yahooapis.com/v1/public/yql?q=select%20item%20from%20weather.forecast%20where%20woeid%3D%22' + str(woeid) + '%22&format=xml'
     file = urllib.urlopen(url)

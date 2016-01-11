@@ -69,7 +69,7 @@ class MyMetrixWeatherWindow(ConfigListScreen, Screen):
         self['helperimage'] = Pixmap()
         self['rect'] = Label()
         list = []
-        list.append(getConfigListEntry(_('MetrixWeather ID'), config.plugins.MetrixWeather.woeid))
+        list.append(getConfigListEntry(_('MetrixWeather ID'), config.plugins.yweather.weather_city))
         list.append(getConfigListEntry(_('Unit'), config.plugins.MetrixWeather.tempUnit))
         list.append(getConfigListEntry(_('Refresh Interval (min)'), config.plugins.MetrixWeather.refreshInterval))
         ConfigListScreen.__init__(self, list)
