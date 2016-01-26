@@ -855,35 +855,35 @@
 				}
 			</convert>
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/media1.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/media1.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">video_menu</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_setup_audio.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_setup_audio.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">audio_menu</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_setup_audio.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_setup_audio.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">Volume_Adjust</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_setup_tuner.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_setup_tuner.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">service_searching_selection</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_setup_ci.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_setup_ci.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">ci_assign</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_setup_ci.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_setup_ci.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">ci_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_setup_ci.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_setup_ci.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">cam_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_setup_software_manager.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_setup_software_manager.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">software_manager</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -915,11 +915,50 @@
       <convert type="MenuEntryCompare">default_wizard</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-	  <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_display_lcd_skin_setup.png" position="305,80" size="256,256" alphatest="blend" zPosition="1">
-			<convert type="MenuEntryCompare">lcd4linux</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
+  <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_display_lcd_skin_setup.png" position="305,80" size="256,256" alphatest="blend" zPosition="1">
+	<convert type="MenuEntryCompare">lcd4linux</convert>
+	<convert type="ConditionalShowHide" />
+   </widget>
+   <widget alphatest="blend" pixmap="MetrixHD/icons/menu_timermenu_timers.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
+      <convert type="MenuEntryCompare">rec_setup</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+   <widget alphatest="blend" pixmap="MetrixHD/icons/menu_extended_epg_menu.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
+      <convert type="MenuEntryCompare">epg_menu</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+<widget alphatest="blend" pixmap="MetrixHD/icons/setup.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
+      <convert type="MenuEntryCompare">extended_selection</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
     <eLabel backgroundColor="metrixBackground" foregroundColor="metrixBackground" name="" position="645,51" size="412,565" zPosition="-11" />
+  </screen>
+    <screen backgroundColor="transparent" flags="wfNoBorder" name="menu_rec" position="center,center" size="1280,720" title="menu_rec">
+    <!-- /*ClockWidget-->
+    <eLabel backgroundColor="metrixBackground" position="264,51" size="340,320" transparent="0" zPosition="-1" />
+    <!-- /*ClockWidget-->
+    <widget backgroundColor="metrixBackground2" font="SetrixHD; 60" halign="left" position="450,401" render="Label" size="169,80" source="global.CurrentTime" transparent="1" valign="top">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget backgroundColor="metrixBackground2" font="Regular; 20" foregroundColor="metrixAccent1" halign="right" position="290,444" render="Label" size="148,29" source="global.CurrentTime" transparent="1">
+      <convert type="ClockToText">Format:%e. %b</convert>
+    </widget>
+    <widget backgroundColor="metrixBackground2" font="Regular; 20" foregroundColor="metrixAccent1" halign="right" position="313,415" render="Label" size="125,30" source="global.CurrentTime" transparent="1">
+      <convert type="ClockToText">Format:%A</convert>
+    </widget>
+    <eLabel backgroundColor="metrixBackground2" position="264,410" size="340,70" transparent="0" zPosition="-1" />
+    <!--ClockWidget */-->
+    <widget font="SetrixHD; 150" foregroundColor="metrixPreTrans" position="20,552" render="Label" size="1273,296" source="title" transparent="1" valign="top" zPosition="-50" />
+    <widget enableWrapAround="1" foregroundColor="metrixAccent1" position="636,60" render="Listbox" scrollbarMode="showNever" size="476,555" source="menu" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [ MultiContentEntryText(pos = (30, 5), size = (420, 50), flags = RT_HALIGN_LEFT, text = 0) ],
+				"fonts": [gFont("SetrixHD", 30)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <ePixmap alphatest="blend" pixmap="MetrixHD/icons/menu_timermenu_timers.png" position="307,82" size="256,256" />
+    <eLabel backgroundColor="metrixBackground" foregroundColor="metrixBackground" name="" position="645,51" size="458,565" zPosition="-11" />
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="menu_information" position="0,0" size="1280,720" title="Main menu">
     <eLabel backgroundColor="metrixBackground" position="264,51" size="340,320" transparent="0" zPosition="-1" />
@@ -1212,7 +1251,7 @@
     <eLabel backgroundColor="metrixBackground2" position="264,410" size="340,70" transparent="0" zPosition="-1" />
     <!--ClockWidget */-->
     <widget font="SetrixHD; 150" foregroundColor="metrixPreTrans" position="20,552" render="Label" size="1273,296" source="title" transparent="1" valign="top" zPosition="-50" />
-    <widget foregroundColor="metrixAccent1" enableWrapAround="1" position="636,60" render="Listbox" scrollbarMode="showNever" size="477,555" source="menu" transparent="1">
+    <widget enableWrapAround="1" foregroundColor="metrixAccent1" position="636,60" render="Listbox" scrollbarMode="showNever" size="477,555" source="menu" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (30, 5), size = (420, 50), flags = RT_HALIGN_LEFT, text = 0) ],
 				"fonts": [gFont("SetrixHD", 30)],
@@ -1221,90 +1260,143 @@
 			</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" foregroundColor="metrixBackground" name="" position="645,51" size="459,565" zPosition="-11" />
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_av_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+   
+     <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_av_setup.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">av_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_language_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_language_setup.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">language_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_language_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_language_setup.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">autolanguage_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_remote_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_remote_setup.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">remote_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_usage_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_usage_setup.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">usage_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_channelselection_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_channelselection_setup.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">channelselection_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_extended_selection.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_extended_selection.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">extended_selection</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_network_menu.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_network_menu.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">network_menu</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_VFD_INI.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_VFD_INI.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">VFD_INI</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_autores_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_autores_setup.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">autores_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_fansetup_config.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_fansetup_config.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">fansetup_config</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_fansetup_config.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_fansetup_config.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">tempfancontrol</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_AutomaticVolumeAdjustment.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_AutomaticVolumeAdjustment.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">AutomaticVolumeAdjustment</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_mainmenu_pluginhider.png" position="307,82" size="256,256" alphatest="blend">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_mainmenu_pluginhider.png" position="307,82" render="Pixmap" size="256,256" source="menu">
       <convert type="MenuEntryCompare">pluginhider_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_scan_streamconvert.png" position="307,82" size="256,256" alphatest="blend">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_scan_streamconvert.png" position="307,82" render="Pixmap" size="256,256" source="menu">
       <convert type="MenuEntryCompare">vps</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_numzapext_setup.png" position="307,82" size="256,256" alphatest="blend">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_numzapext_setup.png" position="307,82" render="Pixmap" size="256,256" source="menu">
       <convert type="MenuEntryCompare">numzapext_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_display_LED_Giga.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_display_LED_Giga.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">LED_Giga</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/remotecontrol.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/remotecontrol.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">remotecontrolcode</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/usage_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/usage_setup.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">animation_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_videofinetune_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_videofinetune_setup.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">video_finetune</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_videoenhancement_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+    <widget alphatest="blend" pixmap="MetrixHD/icons/menu_system_videoenhancement_setup.png" position="307,82" render="Pixmap" size="256,256" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">videoenhancement_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
+
+
+<widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_osd_menu_user_interface.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+			<convert type="MenuEntryCompare">user_interface</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		
+		<widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_extended_specialfeatures_menu.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+			<convert type="MenuEntryCompare">specialfeatures_menu</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_osd_menu_skin_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+			<convert type="MenuEntryCompare">skin_setup</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_extended_display_selection.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+			<convert type="MenuEntryCompare">display_selection</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_osd_menu_buttonsetup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+			<convert type="MenuEntryCompare">buttonsetup_setup</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/mqb.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+			<convert type="MenuEntryCompare">RCU Select</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_extended_osd_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+			<convert type="MenuEntryCompare">osd_setup</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		
+		
+		<widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_VFD_INI.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+			<convert type="MenuEntryCompare">vfd_ew</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		
+		<widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_extended_dvdplayer_setup.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+			<convert type="MenuEntryCompare">dvdplayer_setup</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		
+		<widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/led.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+			<convert type="MenuEntryCompare">ledManager</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<!-- ... for systems with entry in menu_system and not in menu_extended /-->
+		<widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_system_fansetup_config.png" position="307,82" size="256,256" alphatest="blend" zPosition="1">
+			<convert type="MenuEntryCompare">tempfancontrol</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
   </screen>
   <screen name="menu_shutdown" position="0,0" size="1283,723" title="Main menu" flags="wfNoBorder" backgroundColor="transparent">
     <eLabel position="264,51" zPosition="-1" size="340,320" backgroundColor="metrixBackground" transparent="0" />
