@@ -3472,9 +3472,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   </screen>
   
   <screen backgroundColor="metrixBackground" flags="wfNoBorder" name="NumberZap" position="center,center" size="250,60" title="QuickZap">
-    <widget backgroundColor="metrixBackground" font="SetrixHD;28" foregroundColor="metrixAccent1" name="channel" position="25,14" size="100,28" />
-    <widget backgroundColor="metrixBackground" font="SetrixHD;24" foregroundColor="metrixAccent1" halign="right" name="number" position="125,14" size="100,28" />
-  </screen>
+  <widget backgroundColor="metrixBackground" font="SetrixHD;28" foregroundColor="metrixAccent1" name="channel" position="15,9" size="113,40" />
+  <widget backgroundColor="metrixBackground" font="SetrixHD;24" foregroundColor="metrixAccent1" halign="right" name="number" position="129,9" size="106,40" />
+</screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="NumberZapWithName" position="200,21" size="1050,830" title="QuickZap">
     <widget backgroundColor="metrixBackground" font="SetrixHD; 150" foregroundColor="metrixAccent1" halign="right" name="servicenumber" position="323,283" size="387,172" transparent="1" valign="center" zPosition="-1" />
     <widget backgroundColor="metrixBackground" font="SetrixHD; 50" foregroundColor="metrixAccent1" halign="left" name="servicename" position="186,267" size="500,80" transparent="1" />
