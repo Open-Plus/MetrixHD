@@ -840,9 +840,9 @@
     </widget>
     <eLabel backgroundColor="metrixAccent1" position="131,542" size="250,1" />
     <eLabel backgroundColor="metrixAccent1" position="531,542" size="250,1" />
-    <widget backgroundColor="metrixBackground2" font="Regular; 20" foregroundColor="metrixForeground" halign="right" noWrap="1" position="871,527" render="Label" size="140,33" source="session.CurrentService" transparent="1">
-      <convert type="metriSTBinfo">SYStemp</convert>
-    </widget>
+    <<widget backgroundColor="metrixBackground2" font="Regular; 20" foregroundColor="metrixForeground" halign="right" noWrap="1" position="866,527" render="Label" size="152,33" source="session.CurrentService" transparent="1">
+    <convert type="metriSTBinfo">SYStemp</convert>
+  </widget>
     <widget backgroundColor="metrixBackground2" font="Regular; 20" foregroundColor="metrixForeground" halign="right" noWrap="1" position="1027,527" render="Label" size="167,33" source="session.CurrentService" transparent="1">
       <convert type="metriSTBinfo">FanInfo</convert>
     </widget>
