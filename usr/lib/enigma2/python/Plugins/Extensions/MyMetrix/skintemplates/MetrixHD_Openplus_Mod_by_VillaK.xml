@@ -382,7 +382,7 @@
     <convert type="ClockToText">Format:%A</convert>
   </widget>
   <widget source="Service" render="XPicon" position="426,510" size="220,132" zPosition="5" transparent="1" alphatest="blend">
-    <convert type="VMovieInfo">Reference</convert>
+    <convert type="VMovieInfomet">Reference</convert>
   </widget>
   <!-- ClockWidget */ -->
   <eLabel backgroundColor="metrixBackground" position="400,22" size="848,629" zPosition="-10" />
@@ -1693,7 +1693,7 @@
     </widget>
     <!--<widget backgroundColor="metrixBackground2" font="Regular;19" foregroundColor="metrixAccent1" position="870,587" render="NextEvent" size="350,52" source="ServiceEvent" transparent="1">
     </widget>-->
-    <widget source="ServiceEvent" render="openplusHDSingleEpgList" backgroundColor="metrixBackground2" font="Regular;18" foregroundColor="metrixForeground" position="865,569" size="359,72" transparent="1" noWrap="1">
+    <widget source="ServiceEvent" render="metrixHDSingleEpgList" backgroundColor="metrixBackground2" font="Regular;18" foregroundColor="metrixForeground" position="865,569" size="359,72" transparent="1" noWrap="1">
     </widget>
     <!-- /*Buttons-->
     <ePixmap name="new ePixmap" pixmap="MetrixHD/buttons/key_menu.png" position="768,45" size="81,40" />
@@ -2039,11 +2039,11 @@
     </widget>
     <eLabel text="Tiempo duración:" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" noWrap="1" font="RegularLight; 22" halign="right" position="842,280" size="200,30" transparent="1" />
     <widget source="session.CurrentService" render="Label" backgroundColor="metrixBackground" font="RegularLight; 22" halign="right" position="1041,280" size="80,30" transparent="1">
-      <convert type="openplusHDServiceTime">StartTime</convert>
+      <convert type="metrixHDServiceTime">StartTime</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" font="Regular; 24" halign="center" position="1120,280" size="30,30" text="-" transparent="1" />
     <widget source="session.CurrentService" render="Label" backgroundColor="metrixBackground" font="RegularLight; 22" halign="left" position="1148,280" size="80,30" transparent="1">
-      <convert type="openplusHDServiceTime">EndTime</convert>
+      <convert type="metrixHDServiceTime">EndTime</convert>
     </widget>
     <!-- next_line_is_picon -->
     <widget source="Service" render="XPicon" position="937,65" size="220,132" zPosition="5" transparent="1" alphatest="blend">
@@ -2778,11 +2778,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   </screen>
   <screen name="MoviePlayer" position="0,0" size="1283,723" title="InfoBar" flags="wfNoBorder" backgroundColor="transparent">
     <widget source="session.CurrentService" render="Label" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" font="SetrixHD; 22" halign="right" position="566,674" size="60,30" transparent="1">
-      <convert type="openplusHDServiceTime">StartTime</convert>
+      <convert type="metrixHDServiceTime">StartTime</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" foregroundColor="metrixAccent1" font="SetrixHD; 22" halign="center" position="628,674" size="20,30" text="-" transparent="1" />
     <widget source="session.CurrentService" render="Label" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" font="SetrixHD; 22" halign="left" position="648,674" size="60,30" transparent="1">
-      <convert type="openplusHDServiceTime">EndTime</convert>
+      <convert type="metrixHDServiceTime">EndTime</convert>
     </widget>
     <eLabel position="0,570" zPosition="-2" size="1281,150" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" />
     <widget source="session.CurrentService" render="Label" position="150,588" size="892,56" font="SetrixHD; 40" valign="top" noWrap="1" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1">

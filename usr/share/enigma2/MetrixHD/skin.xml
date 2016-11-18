@@ -313,74 +313,74 @@
 <!--  /* Crypt-Info  -->
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="285,675" size="18,33" text="B" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="285,675" render="FixedLabel" size="18,33" source="session.CurrentService" text="B" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">BetaCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">BetaCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="Regular; 22" foregroundColor="metrixForeground" halign="center" position="285,699" render="FixedLabel" size="18,3" source="session.CurrentService" transparent="0" valign="center" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">BetaEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">BetaEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="303,675" size="18,33" text="I" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="303,675" render="FixedLabel" size="18,33" source="session.CurrentService" text="I" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">IrdCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">IrdCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 22" foregroundColor="metrixForeground" halign="center" position="303,699" render="FixedLabel" size="18,3" source="session.CurrentService" transparent="0" valign="center" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">IrdEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">IrdEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="320,675" size="18,33" text="S" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="320,675" render="FixedLabel" size="18,33" source="session.CurrentService" text="S" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">SecaCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">SecaCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 22" foregroundColor="metrixForeground" halign="center" position="319,699" render="FixedLabel" size="18,3" source="session.CurrentService" transparent="0" valign="center" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">SecaEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">SecaEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="339,675" size="18,33" text="V" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="339,675" render="FixedLabel" size="18,33" source="session.CurrentService" text="V" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">ViaCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">ViaCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 22" foregroundColor="metrixForeground" halign="center" position="339,699" render="FixedLabel" size="18,3" source="session.CurrentService" text="V" transparent="0" valign="center" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">ViaEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">ViaEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="357,675" size="18,33" text="N" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="357,675" render="FixedLabel" size="18,33" source="session.CurrentService" text="N" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">NagraCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">NagraCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 22" foregroundColor="metrixForeground" halign="center" position="357,699" render="FixedLabel" size="18,3" source="session.CurrentService" transparent="0" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">NagraEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">NagraEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="375,675" size="38,33" text="CW" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="375,675" render="FixedLabel" size="38,33" source="session.CurrentService" text="CW" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">CrwCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">CrwCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 22" foregroundColor="metrixForeground" halign="center" position="375,699" render="FixedLabel" size="38,3" source="session.CurrentService" transparent="0" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">CrwEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">CrwEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="413,675" size="38,33" text="ND" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="413,675" render="FixedLabel" size="38,33" source="session.CurrentService" text="ND" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">NdsCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">NdsCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 22" foregroundColor="metrixForeground" halign="center" position="413,699" render="FixedLabel" size="38,3" source="session.CurrentService" transparent="0" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">NdsEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">NdsEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="451,675" size="38,33" text="CO" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="451,675" render="FixedLabel" size="38,33" source="session.CurrentService" text="CO" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">ConaxCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">ConaxCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 19" foregroundColor="metrixForeground" halign="center" position="451,699" render="FixedLabel" size="38,3" source="session.CurrentService" transparent="0" valign="center" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">ConaxEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">ConaxEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <!--  STATUS  -->
@@ -405,11 +405,11 @@
 <!--  /* RESOLUTION INFO  -->
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="600,675" size="15,30" text="x" transparent="1" valign="top" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="right" position="536,675" render="Label" size="64,30" source="session.CurrentService" transparent="1" valign="top">
-				<convert type="openplusHDVideoInfo">VideoSizeWidth</convert>
+				<convert type="metrixHDVideoInfo">VideoSizeWidth</convert>
 			</widget>
 			
 			<widget backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="left" position="615,675" render="Label" size="80,30" source="session.CurrentService" transparent="1" valign="top">
-				<convert type="openplusHDVideoInfo">VideoSizeHight</convert>
+				<convert type="metrixHDVideoInfo">VideoSizeHight</convert>
 			</widget>
 <!--  RESOLUTION INFO */  -->
 
@@ -680,74 +680,74 @@
 <!--  /* Crypt-Info  -->
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="285,675" size="18,33" text="B" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="285,675" render="FixedLabel" size="18,33" source="session.CurrentService" text="B" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">BetaCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">BetaCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="Regular; 22" foregroundColor="metrixForeground" halign="center" position="285,699" render="FixedLabel" size="18,3" source="session.CurrentService" transparent="0" valign="center" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">BetaEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">BetaEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="303,675" size="18,33" text="I" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="303,675" render="FixedLabel" size="18,33" source="session.CurrentService" text="I" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">IrdCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">IrdCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 22" foregroundColor="metrixForeground" halign="center" position="303,699" render="FixedLabel" size="18,3" source="session.CurrentService" transparent="0" valign="center" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">IrdEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">IrdEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="320,675" size="18,33" text="S" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="320,675" render="FixedLabel" size="18,33" source="session.CurrentService" text="S" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">SecaCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">SecaCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 22" foregroundColor="metrixForeground" halign="center" position="319,699" render="FixedLabel" size="18,3" source="session.CurrentService" transparent="0" valign="center" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">SecaEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">SecaEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="339,675" size="18,33" text="V" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="339,675" render="FixedLabel" size="18,33" source="session.CurrentService" text="V" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">ViaCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">ViaCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 22" foregroundColor="metrixForeground" halign="center" position="339,699" render="FixedLabel" size="18,3" source="session.CurrentService" text="V" transparent="0" valign="center" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">ViaEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">ViaEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="357,675" size="18,33" text="N" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="357,675" render="FixedLabel" size="18,33" source="session.CurrentService" text="N" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">NagraCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">NagraCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 22" foregroundColor="metrixForeground" halign="center" position="357,699" render="FixedLabel" size="18,3" source="session.CurrentService" transparent="0" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">NagraEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">NagraEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="375,675" size="38,33" text="CW" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="375,675" render="FixedLabel" size="38,33" source="session.CurrentService" text="CW" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">CrwCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">CrwCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 22" foregroundColor="metrixForeground" halign="center" position="375,699" render="FixedLabel" size="38,3" source="session.CurrentService" transparent="0" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">CrwEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">CrwEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="413,675" size="38,33" text="ND" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="413,675" render="FixedLabel" size="38,33" source="session.CurrentService" text="ND" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">NdsCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">NdsCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 22" foregroundColor="metrixForeground" halign="center" position="413,699" render="FixedLabel" size="38,3" source="session.CurrentService" transparent="0" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">NdsEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">NdsEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="451,675" size="38,33" text="CO" transparent="1" valign="top" zPosition="3" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="451,675" render="FixedLabel" size="38,33" source="session.CurrentService" text="CO" transparent="1" valign="top" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">ConaxCrypt</convert>
+<convert type="metrixHDChannelCryptoInfo">ConaxCrypt</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <widget backgroundColor="green" font="SetrixHD; 19" foregroundColor="metrixForeground" halign="center" position="451,699" render="FixedLabel" size="38,3" source="session.CurrentService" transparent="0" valign="center" zPosition="4">
-<convert type="openplusHDChannelCryptoInfo">ConaxEcm</convert>
+<convert type="metrixHDChannelCryptoInfo">ConaxEcm</convert>
 <convert type="ConditionalShowHide" />
 </widget>
 <!--  STATUS  -->
@@ -772,11 +772,11 @@
 <!--  /* RESOLUTION INFO  -->
 <eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="center" position="600,675" size="15,30" text="x" transparent="1" valign="top" />
 <widget backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="right" position="536,675" render="Label" size="64,30" source="session.CurrentService" transparent="1" valign="top">
-				<convert type="openplusHDVideoInfo">VideoSizeWidth</convert>
+				<convert type="metrixHDVideoInfo">VideoSizeWidth</convert>
 			</widget>
 			
 			<widget backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent1" halign="left" position="615,675" render="Label" size="80,30" source="session.CurrentService" transparent="1" valign="top">
-				<convert type="openplusHDVideoInfo">VideoSizeHight</convert>
+				<convert type="metrixHDVideoInfo">VideoSizeHight</convert>
 			</widget>
 <!--  RESOLUTION INFO */  -->
 
@@ -869,23 +869,23 @@
     <eLabel backgroundColor="metrixAccent1" position="131,542" size="250,1" />
     <eLabel backgroundColor="metrixAccent1" position="531,542" size="250,1" />
     <widget backgroundColor="metrixBackground2" font="Regular; 20" foregroundColor="metrixForeground" halign="right" noWrap="1" position="871,527" render="Label" size="140,33" source="session.CurrentService" transparent="1">
-      <convert type="VtiInfo">TempInfo</convert>
+      <convert type="metriSTBinfo">SYStemp</convert>
     </widget>
     <widget backgroundColor="metrixBackground2" font="Regular; 20" foregroundColor="metrixForeground" halign="right" noWrap="1" position="1027,527" render="Label" size="167,33" source="session.CurrentService" transparent="1">
-      <convert type="VtiInfo">FanInfo</convert>
+      <convert type="metriSTBinfo">FanInfo</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground2" name="HealthWidgetBG" position="64,525" size="1150,35" zPosition="-20" />
     <!-- HEALTH WIDGET */ -->
 
   <!--  /* ECMInfo  -->
 <widget backgroundColor="metrixBackground2" font="Regular; 16" halign="right" noWrap="1" position="732,40" render="Label" size="202,25" source="session.CurrentService" transparent="1" valign="center" zPosition="1">
-<convert type="openplusCamdInfo">Camd</convert>
+<convert type="metrixCamdInfo">Camd</convert>
 </widget>
 <widget backgroundColor="metrixBackground2" font="Regular; 16" foregroundColor="metrixAccent1" halign="center" noWrap="1" position="389,40" render="Label" size="550,25" source="session.CurrentService" transparent="1" valign="center" zPosition="1">
-<convert type="openplusCaidInfo">CryptInfo</convert>
+<convert type="metrixCaidInfo">CryptInfo</convert>
 </widget>
 <widget backgroundColor="metrixBackground2" font="Regular; 14" halign="center" noWrap="1" position="389,85" render="Label" size="550,21" source="session.CurrentService" transparent="2" valign="center" zPosition="1">
-      <convert type="openplusHDChannelCryptoInfo">Default</convert>
+      <convert type="metrixHDChannelCryptoInfo">Default</convert>
     </widget>
 <eLabel backgroundColor="metrixBackground2" position="389,43" size="550,65" />
 <!-- ECMInfo */ -->
@@ -894,7 +894,7 @@
   <convert type="ServiceName">Provider</convert>
 </widget>
 <widget backgroundColor="metrixBackground2" font="Regular; 15" foregroundColor="metrixAccent1" halign="center" position="389,60" render="Label" size="550,23" source="session.CurrentService" transparent="1" valign="center" zPosition="1">
-  <convert type="openplusHDSmartInfo">ExpertInfo</convert>
+  <convert type="metrixHDSmartInfo">ExpertInfo</convert>
 </widget>
 <eLabel backgroundColor="metrixAccent1" position="394,83" size="540,1" />
 <!-- InfoWidget Provider and CAM(CENTER) */ -->
@@ -994,7 +994,7 @@
     <convert type="ClockToText">Format:%A</convert>
   </widget>
   <widget source="Service" render="XPicon" position="426,510" size="220,132" zPosition="5" transparent="1" alphatest="blend">
-    <convert type="VMovieInfo">Reference</convert>
+    <convert type="VMovieInfomet">Reference</convert>
   </widget>
   <!-- ClockWidget */ -->
   <eLabel backgroundColor="metrixBackground" position="400,22" size="848,629" zPosition="-10" />
@@ -2607,11 +2607,11 @@
     </widget>
     <eLabel text="Tiempo duración:" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" noWrap="1" font="RegularLight; 22" halign="right" position="842,280" size="200,30" transparent="1" />
     <widget source="session.CurrentService" render="Label" backgroundColor="metrixBackground" font="RegularLight; 22" halign="right" position="1041,280" size="80,30" transparent="1">
-      <convert type="openplusHDServiceTime">StartTime</convert>
+      <convert type="metrixHDServiceTime">StartTime</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" font="Regular; 24" halign="center" position="1120,280" size="30,30" text="-" transparent="1" />
     <widget source="session.CurrentService" render="Label" backgroundColor="metrixBackground" font="RegularLight; 22" halign="left" position="1148,280" size="80,30" transparent="1">
-      <convert type="openplusHDServiceTime">EndTime</convert>
+      <convert type="metrixHDServiceTime">EndTime</convert>
     </widget>
     <!-- next_line_is_picon -->
     <widget source="Service" render="XPicon" position="937,65" size="220,132" zPosition="5" transparent="1" alphatest="blend">
@@ -3203,11 +3203,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="MoviePlayer" position="0,0" size="1283,723" title="InfoBar">
     <widget backgroundColor="metrixBackground" font="SetrixHD; 22" foregroundColor="metrixAccent1" halign="right" position="566,674" render="Label" size="60,30" source="session.CurrentService" transparent="1">
-      <convert type="openplusHDServiceTime">StartTime</convert>
+      <convert type="metrixHDServiceTime">StartTime</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" font="SetrixHD; 22" foregroundColor="metrixAccent1" halign="center" position="628,674" size="20,30" text="-" transparent="1" />
     <widget backgroundColor="metrixBackground" font="SetrixHD; 22" foregroundColor="metrixAccent1" halign="left" position="648,674" render="Label" size="60,30" source="session.CurrentService" transparent="1">
-      <convert type="openplusHDServiceTime">EndTime</convert>
+      <convert type="metrixHDServiceTime">EndTime</convert>
     </widget>
     <eLabel backgroundColor="metrixBackground" foregroundColor="metrixAccent1" position="0,570" size="1281,150" zPosition="-2" />
     <widget backgroundColor="metrixBackground" font="SetrixHD; 40" foregroundColor="metrixAccent1" noWrap="1" position="150,588" render="Label" size="892,56" source="session.CurrentService" transparent="1" valign="top">
@@ -4615,7 +4615,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <widget alphatest="blend" position="905,64" render="XPicon" size="220,132" source="Service" transparent="1" zPosition="2">
           <convert type="MetrixRefString">ServicelistRef</convert>
     </widget>
-      <widget backgroundColor="metrixBackground" font="Regular;18" foregroundColor="metrixForeground" noWrap="1" position="810,532" render="openplusHDSingleEpgList" size="407,110" source="Service" transparent="1">
+      <widget backgroundColor="metrixBackground" font="Regular;18" foregroundColor="metrixForeground" noWrap="1" position="810,532" render="metrixHDSingleEpgList" size="407,110" source="Service" transparent="1">
     </widget>
     <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_red.png" position="35,635" size="30,40" />
     <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/key_green.png" position="202,635" size="30,40" />
@@ -4694,7 +4694,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     </widget>
     <!--<widget backgroundColor="metrixBackground2" font="Regular;19" foregroundColor="metrixAccent1" position="870,587" render="NextEvent" size="350,52" source="ServiceEvent" transparent="1">
     </widget>-->
-      <widget backgroundColor="metrixBackground2" font="Regular;18" foregroundColor="metrixForeground" noWrap="1" position="868,570" render="openplusHDSingleEpgList" size="359,72" source="ServiceEvent" transparent="1">
+      <widget backgroundColor="metrixBackground2" font="Regular;18" foregroundColor="metrixForeground" noWrap="1" position="868,570" render="metrixHDSingleEpgList" size="359,72" source="ServiceEvent" transparent="1">
     </widget>
     <!-- /*Buttons-->
    	

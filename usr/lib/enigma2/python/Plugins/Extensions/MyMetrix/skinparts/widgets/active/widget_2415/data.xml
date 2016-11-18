@@ -17,10 +17,10 @@
     <eLabel position="131,542" size="250,1" backgroundColor="metrixAccent1" />
     <eLabel position="531,542" size="250,1" backgroundColor="metrixAccent1" />
     <widget source="session.CurrentService" render="Label" font="Regular; 20" position="871,527" size="140,33" halign="right" backgroundColor="metrixBackground2" transparent="1" noWrap="1" foregroundColor="metrixForeground">
-      <convert type="VtiInfo">TempInfo</convert>
+      <convert type="metriSTBinfo">SYStemp</convert>
     </widget>
     <widget source="session.CurrentService" render="Label" font="Regular; 20" position="1027,527" size="167,33" halign="right" backgroundColor="metrixBackground2" transparent="1" noWrap="1" foregroundColor="metrixForeground">
-      <convert type="VtiInfo">FanInfo</convert>
+      <convert type="metriSTBinfo">FanInfo</convert>
     </widget>
     <eLabel name="HealthWidgetBG" position="64,525" size="1150,35" backgroundColor="metrixBackground2" zPosition="-20" />
     <!-- HEALTH WIDGET */ -->
