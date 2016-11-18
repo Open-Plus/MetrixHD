@@ -5,7 +5,7 @@ from os import path, popen
 import Screens.Standby
 #from time import time
 
-class openSTBinfo(Converter, object):
+class metriSTBinfo(Converter, object):
 
 	def __init__(self, type):
 		Converter.__init__(self, type)

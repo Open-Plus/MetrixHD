@@ -11,7 +11,7 @@ from enigma import eServiceCenter, eServiceReference, iServiceInformation
 
 ##########################################################################
 
-class openplusHDVideoInfo(Converter, object):
+class metrixHDVideoInfo(Converter, object):
 
 	VIDEOMODE = 0
 	VIDEOSIZE = 1

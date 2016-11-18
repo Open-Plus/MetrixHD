@@ -11,7 +11,7 @@ from Components.ServiceEventTracker import ServiceEventTracker
 import gettext
 from Poll import Poll
 
-class ExtremeInfop(Poll, Converter, object):
+class ExtremeInfo(Poll, Converter, object):
     TUNERINFO = 0
     CAMNAME = 1
     NUMBER = 2

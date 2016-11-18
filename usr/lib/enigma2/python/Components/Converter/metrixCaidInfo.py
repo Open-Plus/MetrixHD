@@ -14,7 +14,7 @@ import os
 info = {}
 old_ecm_mtime = None
 
-class openplusCaidInfo(Poll, Converter, object):
+class metrixCaidInfo(Poll, Converter, object):
 	CAID = 0
 	PID = 1
 	PROV = 2

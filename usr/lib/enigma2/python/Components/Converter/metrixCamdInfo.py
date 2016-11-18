@@ -15,7 +15,7 @@ from Poll import Poll
 from os import popen
 import os
 
-class openplusCamdInfo(Poll, Converter, object):
+class metrixCamdInfo(Poll, Converter, object):
 	def __init__(self, type):
 		Converter.__init__(self, type)
 		Poll.__init__(self)

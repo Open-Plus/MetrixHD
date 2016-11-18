@@ -3,7 +3,7 @@ from Components.Element import cached, ElementError
 from enigma import iServiceInformation
 from ServiceReference import ServiceReference
 
-class VMovieInfo(Converter, object):
+class VMovieInfomet(Converter, object):
 	MOVIE_SHORT_DESCRIPTION = 0 # meta description when available.. when not .eit short description
 	MOVIE_META_DESCRIPTION = 1 # just meta description when available
 	MOVIE_REC_SERVICE_NAME = 2 # name of recording service
