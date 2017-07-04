@@ -1101,6 +1101,10 @@
 {"template": [ MultiContentEntryText(pos = (30, 5), size = (420, 50), flags = RT_HALIGN_LEFT, text = 0) ], "fonts": [gFont("SetrixHD", 30)], "itemHeight": 60 }
 </convert>
     </widget>
+      <widget alphatest="blend" pixmap="MetrixHD/icons/skin_selector.png" position="307,82" render="Pixmap" size="256,256" source="menu">
+      <convert type="MenuEntryCompare">OpenPlusHD SkinPanel</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
     <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_mainmenu_infopanel.png" position="307,82" size="256,256" alphatest="blend">
       <convert type="MenuEntryCompare">Infopanel</convert>
       <convert type="ConditionalShowHide" />
@@ -1114,7 +1118,7 @@
       <convert type="ConditionalShowHide" />
     </widget>
 	<widget alphatest="blend" pixmap="MetrixHD/icons/menu_information_supportchannel.png" position="307,82" render="Pixmap" size="256,256" source="menu">
-      <convert type="MenuEntryCompare">Videoclub</convert>
+      <convert type="MenuEntryCompare">HMStreamHQ</convert>
       <convert type="ConditionalShowHide"/>
     </widget>
     <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_mainmenu_timer.png" position="307,82" size="256,256" alphatest="blend">

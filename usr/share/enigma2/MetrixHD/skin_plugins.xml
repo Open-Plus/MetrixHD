@@ -3420,4 +3420,23 @@
     <widget name="key_red" position="453,635" size="140,24" zPosition="1" font="SetrixHD; 19" halign="left" backgroundColor="metrixBackground" transparent="1" />
     <widget name="key_green" position="637,635" size="130,38" zPosition="1" font="SetrixHD; 17" halign="left" backgroundColor="metrixBackground" transparent="1" />
   </screen>
+<screen backgroundColor="transparent" flags="wfNoBorder" name="skinpanel_setup" position="0,0" title="OpenPlus! SkinPanel Configuration" size="1308,720">
+  <eLabel backgroundColor="metrixBackground" position="40,7" size="736,705" zPosition="-10" />
+  <widget backgroundColor="metrixBackground2" font="SetrixHD; 28" halign="right" position="1089,607" render="Label" size="140,40" source="global.CurrentTime" transparent="1" valign="top">
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget backgroundColor="metrixBackground2" font="SetrixHD;22" halign="left" name="text" position="793,66" size="430,264" transparent="1" />
+  <eLabel backgroundColor="metrixBackground2" position="776,51" size="460,600" zPosition="-10" />
+ <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/red.png" position="45,670" size="30,40" />
+  <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/green.png" position="285,670" size="30,40" />
+  
+  <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/blue.png" position="525,670" size="30,40" />
+  <widget backgroundColor="metrixBackground" font="SetrixHD;20" halign="left" position="80,672" render="Label" size="200,24" source="key_red" transparent="1" zPosition="1" />
+  <widget backgroundColor="metrixBackground" font="SetrixHD;20" halign="left" position="320,672" render="Label" size="200,24" source="key_green" transparent="1" zPosition="1" />
+  
+  <widget backgroundColor="metrixBackground" font="SetrixHD;20" halign="left" position="560,672" render="Label" size="200,24" source="key_blue" transparent="1" zPosition="1" />
+  <ePixmap pixmap="openplusHD/menu/pincel.png" position="883,347" size="250,359" alphatest="blend" zPosition="-1" />
+    <widget position="60,56" size="697,620" name="config" scrollbarMode="no" itemHeight="35" foregroundColor="white" />
+    <eLabel backgroundColor="metrixBackground" font="SetrixHD;35" position="60,5" size="800,48" text="Config Skin OpenPlusHD" transparent="1" /> 
+</screen>
 </skin>
