@@ -1105,9 +1105,9 @@
       <convert type="MenuEntryCompare">OpenPlusHD SkinPanel</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_mainmenu_infopanel.png" position="307,82" size="256,256" alphatest="blend">
-      <convert type="MenuEntryCompare">Infopanel</convert>
-      <convert type="ConditionalShowHide" />
+    <widget alphatest="blend" pixmap="MetrixHD/icons/icon_home_LB.png" position="307,82" render="Pixmap" size="256,256" source="menu">
+      <convert type="MenuEntryCompare">Openpanel</convert>
+      <convert type="ConditionalShowHide"/>
     </widget>
     <widget source="menu" render="Pixmap" pixmap="MetrixHD/icons/menu_mainmenu_openstore.png" position="307,82" size="256,256" alphatest="blend">
       <convert type="MenuEntryCompare">OpenStore</convert>
