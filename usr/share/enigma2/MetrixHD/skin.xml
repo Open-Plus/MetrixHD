@@ -3521,10 +3521,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <ePixmap alphatest="blend" pixmap="MetrixHD/icons/net.png" position="920,230" size="256,256" transparent="1" zPosition="2"/>
   </screen>
   
-  <screen backgroundColor="metrixBackground" flags="wfNoBorder" name="NumberZap" position="center,center" size="250,60" title="QuickZap">
-    <widget backgroundColor="metrixBackground" font="SetrixHD;28" foregroundColor="metrixAccent1" name="channel" position="25,14" size="100,28"/>
-    <widget backgroundColor="metrixBackground" font="SetrixHD;24" foregroundColor="metrixAccent1" halign="right" name="number" position="125,14" size="100,28"/>
-  </screen>
+<screen backgroundColor="metrixBackground" flags="wfNoBorder" name="NumberZap" position="center,center" size="321,100" title="QuickZap">
+  <widget backgroundColor="metrixBackground" font="LCD; 50" foregroundColor="metrixAccent1" name="channel" position="15,9" size="153,80" noWrap="1" valign="center" />
+  <widget backgroundColor="metrixBackground2" font="LCD; 50" halign="center" name="number" position="169,9" size="136,80" noWrap="1" valign="center" />
+<eLabel backgroundColor="metrixBackground2" position="168,0" size="152,100" zPosition="-5" />
+</screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="NumberZapWithName" position="200,21" size="1050,830" title="QuickZap">
     <widget backgroundColor="metrixBackground" font="SetrixHD; 150" foregroundColor="metrixAccent1" halign="right" name="servicenumber" position="323,283" size="387,172" transparent="1" valign="center" zPosition="-1"/>
     <widget backgroundColor="metrixBackground" font="SetrixHD; 50" foregroundColor="metrixAccent1" halign="left" name="servicename" position="186,267" size="500,80" transparent="1"/>

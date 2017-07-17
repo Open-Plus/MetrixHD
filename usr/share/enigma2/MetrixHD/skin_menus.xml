@@ -557,7 +557,7 @@
     <widget source="Title" render="Label" position="70,47" foregroundColor="metrixForeground" size="525,50" font="SetrixHD; 35" backgroundColor="metrixBackground" transparent="1" />
     <widget name="text" position="70,110" size="700,500" font="SetrixHD;18" zPosition="3" itemHeight="25" scrollbarMode="showOnDemand" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" backgroundColorSelected="metrixSelection" foregroundColorSelected="metrixAccent1" transparent="1" />
     <eLabel text="OPEN SOURCE" position="825,110" size="380,55" font="SetrixHD; 50" backgroundColor="metrixBackground2" foregroundColor="metrixAccent1" halign="center" transparent="1" zPosition="1" />
-    <eLabel text="https://github.com/Linux-Box" position="825,470" size="380,30" font="Regular; 20" backgroundColor="metrixBackground2" foregroundColor="metrixForeground" halign="center" transparent="0" zPosition="1" />
+    <eLabel text="https://github.com/open-plus" position="825,470" size="380,30" font="Regular; 20" backgroundColor="metrixBackground2" foregroundColor="metrixForeground" halign="center" transparent="0" zPosition="1" />
     <eLabel text="https://github.com/oe-alliance" position="825,520" size="380,30" font="Regular; 20" backgroundColor="metrixBackground2" foregroundColor="metrixForeground" halign="center" transparent="0" zPosition="1" />
     <ePixmap position="890,175" size="256,256" zPosition="10" pixmap="MetrixHD/icons/menu_mainmenu_info.png" transparent="1" alphatest="blend" />
     <widget name="key_red" position="70,638" size="170,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" transparent="1" />
@@ -789,7 +789,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="message" render="Label" position="825,564" size="380,30" font="Regular;20" backgroundColor="metrixBackground2" foregroundColor="metrixForeground" halign="center" transparent="0" zPosition="1" />
     <widget name="filelist" position="70,110" size="700,510" backgroundColor="metrixBackground" foregroundColor="metrixAccent1" backgroundColorSelected="metrixSelection" foregroundColorSelected="metrixAccent1" itemHeight="30" font="Regular; 20" scrollbarMode="showOnDemand" transparent="1" />
     <eLabel text="OPEN SOURCE" position="825,110" size="380,55" font="SetrixHD; 50" backgroundColor="metrixBackground2" foregroundColor="metrixAccent1" halign="center" transparent="0" zPosition="1" />
-    <eLabel text="https://github.com/Linux-Box" position="825,470" size="380,30" font="Regular;20" backgroundColor="metrixBackground2" foregroundColor="metrixForeground" halign="center" transparent="0" zPosition="1" />
+    <eLabel text="https://github.com/open-plus" position="825,470" size="380,30" font="Regular;20" backgroundColor="metrixBackground2" foregroundColor="metrixForeground" halign="center" transparent="0" zPosition="1" />
     <eLabel text="https://github.com/oe-alliance" position="825,520" size="380,30" font="Regular;20" backgroundColor="metrixBackground2" foregroundColor="metrixForeground" halign="center" transparent="0" zPosition="1" />
     <eLabel name="layer1" position="40,25" zPosition="-10" size="755,650" backgroundColor="metrixBackground" />
     <eLabel name="layer2" position="795,60" zPosition="-10" size="445,580" backgroundColor="metrixBackground2" />
