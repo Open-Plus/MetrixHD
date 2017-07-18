@@ -1,0 +1,34 @@
+<skinpartwidget screenname="EMCMediaCenter">
+ <!-- /* WEATHER WIDGET  -->
+  <eLabel backgroundColor="metrixBackground" position="46,40" size="213,70" />
+  <widget backgroundColor="metrixBackground" font="SetrixHD; 55" foregroundColor="metrixForeground" halign="right" noWrap="1" position="45,35" render="Label" size="78,70" source="session.CurrentService" transparent="1" valign="center" zPosition="10">
+    <convert type="MetrixWeather">currentWeatherTemp</convert>
+  </widget>
+  <widget backgroundColor="metrixBackground" font="Regular; 17" foregroundColor="metrixForeground" halign="left" noWrap="1" position="123,49" render="Label" size="30,26" source="session.CurrentService" transparent="1" valign="center" zPosition="10">
+    <convert type="MetrixWeather">CF</convert>
+  </widget>
+  <widget backgroundColor="metrixBackground" font="Regular; 16" foregroundColor="metrixAccent1" halign="right" noWrap="1" position="210,50" render="Label" size="39,26" source="session.CurrentService" transparent="1" valign="center" zPosition="10">
+    <convert type="MetrixWeather">forecastTodayTempMax</convert>
+  </widget>
+  <widget backgroundColor="metrixBackground" font="Regular; 16" foregroundColor="metrixAccent2" halign="right" noWrap="1" position="210,76" render="Label" size="39,26" source="session.CurrentService" transparent="1" valign="center" zPosition="10">
+    <convert type="MetrixWeather">forecastTodayTempMin</convert>
+  </widget>
+  <widget backgroundColor="metrixBackground2" font="Meteo; 45" foregroundColor="metrixAccent1" halign="left" noWrap="1" position="265,50" render="Label" size="50,50" source="session.CurrentService" transparent="1" valign="center" zPosition="10">
+    <convert type="MetrixWeather">forecastTomorrowCode</convert>
+  </widget>
+  <widget backgroundColor="metrixBackground2" font="Regular; 16" foregroundColor="metrixAccent1" halign="right" noWrap="1" position="317,50" render="Label" size="39,26" source="session.CurrentService" transparent="1" valign="center" zPosition="10">
+    <convert type="MetrixWeather">forecastTomorrowTempMax</convert>
+  </widget>
+  <widget backgroundColor="metrixBackground2" font="Regular; 16" foregroundColor="metrixAccent2" halign="right" noWrap="1" position="317,76" render="Label" size="39,26" source="session.CurrentService" transparent="1" valign="center" zPosition="10">
+    <convert type="MetrixWeather">forecastTomorrowTempMin</convert>
+  </widget>
+  <eLabel backgroundColor="metrixBackground2" position="259,43" size="105,65" />
+  <widget backgroundColor="metrixBackground" font="Meteo; 45" halign="left" noWrap="1" position="156,50" render="Label" size="50,50" source="session.CurrentService" transparent="1" valign="center" zPosition="10">
+    <convert type="MetrixWeather">forecastTodayCode</convert>
+  </widget>
+  <widget foregroundColor="metrixForeground" backgroundColor="metrixBackground" halign="right" noWrap="1" position="20,52" render="Label" size="230,100" source="session.CurrentService" transparent="1" valign="center" zPosition="10">
+    <convert type="MetrixWeather">currentLocation</convert>
+  </widget>
+  <!--  WEATHER WIDGET */ -->
+</skinpartwidget>    
+  
