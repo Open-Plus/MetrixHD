@@ -987,7 +987,6 @@
     <convert type="MenuEntryCompare">cablescan</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-</screen>
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="menu_mainmenu" position="0,0" size="1312,720" title="Main menu" transparent="0">
     <!-- /*ClockWidget -->
